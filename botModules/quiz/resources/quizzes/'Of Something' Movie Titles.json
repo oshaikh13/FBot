@@ -1,0 +1,121 @@
+{
+  "categories": [],
+  "description": " Fill the blanks in these movie titles. ",
+  "difficulty": -1,
+  "questions": [{
+    "answer": "Oz",
+    "category": "'Of Something' Movie Titles",
+    "question": "The Wizard of __"
+  }, {
+    "answer": "Apes",
+    "category": "'Of Something' Movie Titles",
+    "question": "Planet of the ____"
+  }, {
+    "answer": "Lambs",
+    "category": "'Of Something' Movie Titles",
+    "question": "The Silence of the _____"
+  }, {
+    "answer": "Music",
+    "category": "'Of Something' Movie Titles",
+    "question": "The Sound of _____"
+  }, {
+    "answer": "Lost Ark",
+    "category": "'Of Something' Movie Titles",
+    "question": "Raiders of the ____ ___"
+  }, {
+    "answer": "Wall Street",
+    "category": "'Of Something' Movie Titles",
+    "question": "The Wolf of ____ ______"
+  }, {
+    "answer": "Galaxy",
+    "category": "'Of Something' Movie Titles",
+    "question": "Guardians of the ______"
+  }, {
+    "answer": "Arabia",
+    "category": "'Of Something' Movie Titles",
+    "question": "Lawrence of ______"
+  }, {
+    "answer": "Dead",
+    "category": "'Of Something' Movie Titles",
+    "question": "Shaun of the ____"
+  }, {
+    "answer": "Hazzard",
+    "category": "'Of Something' Movie Titles",
+    "question": "The Dukes of _______"
+  }, {
+    "answer": "Wrath",
+    "category": "'Of Something' Movie Titles",
+    "question": "The Grapes of _____"
+  }, {
+    "answer": "Thieves",
+    "category": "'Of Something' Movie Titles",
+    "question": "Robin Hood: Prince of _______"
+  }, {
+    "answer": "Horrors",
+    "category": "'Of Something' Movie Titles",
+    "question": "Little Shop of _______"
+  }, {
+    "answer": "Summer",
+    "category": "'Of Something' Movie Titles",
+    "question": "(500) Days of ______"
+  }, {
+    "answer": "Solace",
+    "category": "'Of Something' Movie Titles",
+    "question": "Quantum of ______"
+  }, {
+    "answer": "Endearment",
+    "category": "'Of Something' Movie Titles",
+    "question": "Terms of __________"
+  }, {
+    "answer": "Dreams",
+    "category": "'Of Something' Movie Titles",
+    "question": "Field of ______"
+  }, {
+    "answer": "Traveling Pants",
+    "category": "'Of Something' Movie Titles",
+    "question": "The Sisterhood of the _________ _____"
+  }, {
+    "answer": "Penguins",
+    "category": "'Of Something' Movie Titles",
+    "question": "March of the ________"
+  }, {
+    "answer": "Mohicans",
+    "category": "'Of Something' Movie Titles",
+    "question": "The Last of the ________"
+  }, {
+    "answer": "Universe",
+    "category": "'Of Something' Movie Titles",
+    "question": "Masters of the ________"
+  }, {
+    "answer": "Scotland",
+    "category": "'Of Something' Movie Titles",
+    "question": "The Last King of ________"
+  }, {
+    "answer": "Dollars",
+    "category": "'Of Something' Movie Titles",
+    "question": "A Fistful of _______"
+  }, {
+    "answer": "Christ",
+    "category": "'Of Something' Movie Titles",
+    "question": "The Last Temptation of ______"
+  }, {
+    "answer": "Madison County",
+    "category": "'Of Something' Movie Titles",
+    "question": "The Bridges of _______ ______"
+  }, {
+    "answer": "All Fears",
+    "category": "'Of Something' Movie Titles",
+    "question": "The Sum of ___ _____"
+  }, {
+    "answer": "Alcatraz",
+    "category": "'Of Something' Movie Titles",
+    "question": "Birdman of ________"
+  }, {
+    "answer": "Vanities",
+    "category": "'Of Something' Movie Titles",
+    "question": "The Bonfire of the ________"
+  }],
+  "quizLength": 28,
+  "title": "'Of Something' Movie Titles",
+  "url": "http://www.jetpunk.com/quizzes/of-something-movie-titles-quiz.php"
+}

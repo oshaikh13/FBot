@@ -1,0 +1,113 @@
+{
+    "categories": [],
+    "description": " Name these popular science fiction characters.",
+    "difficulty": -1,
+    "questions": [{
+        "answer": "E.T.",
+        "category": "Sci-Fi Characters",
+        "question": "He phoned home"
+    }, {
+        "answer": "Luke Skywalker",
+        "category": "Sci-Fi Characters",
+        "question": "He used the force"
+    }, {
+        "answer": "Darth Vader",
+        "category": "Sci-Fi Characters",
+        "question": "(spoiler alert) Father of ^"
+    }, {
+        "answer": "The Terminator",
+        "category": "Sci-Fi Characters",
+        "question": "Hasta la vista, baby"
+    }, {
+        "answer": "Yoda",
+        "category": "Sci-Fi Characters",
+        "question": "Very short Jedi, he is"
+    }, {
+        "answer": "Chewbacca",
+        "category": "Sci-Fi Characters",
+        "question": "The most famous wookiee"
+    }, {
+        "answer": "Captain Kirk",
+        "category": "Sci-Fi Characters",
+        "question": "Original Enterprise captain"
+    }, {
+        "answer": "Spock",
+        "category": "Sci-Fi Characters",
+        "question": "Half-Vulcan Star Fleet officer"
+    }, {
+        "answer": "Wall-E",
+        "category": "Sci-Fi Characters",
+        "question": "Robot who cleans up waste on abandoned Earth"
+    }, {
+        "answer": "RoboCop",
+        "category": "Sci-Fi Characters",
+        "question": "Cyborg who patrols the streets of Detroit"
+    }, {
+        "answer": "Neo",
+        "category": "Sci-Fi Characters",
+        "question": "\"Matrix\" chosen one"
+    }, {
+        "answer": "Marty McFly",
+        "category": "Sci-Fi Characters",
+        "question": "Teenager friend of the above"
+    }, {
+        "answer": "Captain Picard",
+        "category": "Sci-Fi Characters",
+        "question": "Next-gen Enterprise captain"
+    }, {
+        "answer": "The Doctor",
+        "category": "Sci-Fi Characters",
+        "question": "He traveled in a TARDIS"
+    }, {
+        "answer": "Starbuck",
+        "category": "Sci-Fi Characters",
+        "question": "\"Battlestar Galactica\" pilot or coffee shop"
+    }, {
+        "answer": "Biff Tannen",
+        "category": "Sci-Fi Characters",
+        "question": "\"Back to the Future\" bully"
+    }, {
+        "answer": "Han Solo",
+        "category": "Sci-Fi Characters",
+        "question": "Never tell him the odds!"
+    }, {
+        "answer": "EVE",
+        "category": "Sci-Fi Characters",
+        "question": "Girlfriend of the above"
+    }, {
+        "answer": "Ellen Ripley",
+        "category": "Sci-Fi Characters",
+        "question": "Only survivor in \"Alien\""
+    }, {
+        "answer": "Doc Brown",
+        "category": "Sci-Fi Characters",
+        "question": "Owner of a Delorean time machine"
+    }, {
+        "answer": "Agent Smith",
+        "category": "Sci-Fi Characters",
+        "question": "Program who fights the above"
+    }, {
+        "answer": "T-1000",
+        "category": "Sci-Fi Characters",
+        "question": "Newer, liquid metal version of ^"
+    }, {
+        "answer": "Bender",
+        "category": "Sci-Fi Characters",
+        "question": "Bite his shiny metal you know what"
+    }, {
+        "answer": "Hal 9000",
+        "category": "Sci-Fi Characters",
+        "question": "Won't open the pod bay doors"
+    }, {
+        "answer": "Jake Sully",
+        "category": "Sci-Fi Characters",
+        "question": "Marine who befriends the Na'vi of Pandora"
+    }, {
+        "answer": "Dr. Zaius",
+        "category": "Sci-Fi Characters",
+        "question": "\"Planet of the Apes\" doctor who must keep humans in check"
+    }],
+    "quizLength": 26,
+    "title": "Sci-Fi Characters",
+    "url": "http://www.jetpunk.com/quizzes/science-fiction-characters"
+}

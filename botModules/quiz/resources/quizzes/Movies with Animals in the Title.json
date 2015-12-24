@@ -1,0 +1,105 @@
+{
+  "categories": [],
+  "description": " Fill in the missing animals in these movie titles. ",
+  "difficulty": -1,
+  "questions": [{
+    "answer": "Apes",
+    "category": "Movies with Animals in the Title",
+    "question": "Planet of the ____"
+  }, {
+    "answer": "Snakes",
+    "category": "Movies with Animals in the Title",
+    "question": "______ on a Plane"
+  }, {
+    "answer": "Dalmatians",
+    "category": "Movies with Animals in the Title",
+    "question": "101 __________"
+  }, {
+    "answer": "Chipmunks",
+    "category": "Movies with Animals in the Title",
+    "question": "Alvin and the _________"
+  }, {
+    "answer": "Lambs",
+    "category": "Movies with Animals in the Title",
+    "question": "The Silence of the _____"
+  }, {
+    "answer": "Panther",
+    "category": "Movies with Animals in the Title",
+    "question": "The Pink _______"
+  }, {
+    "answer": "Crocodile",
+    "category": "Movies with Animals in the Title",
+    "question": "_________ Dundee"
+  }, {
+    "answer": "Horse",
+    "category": "Movies with Animals in the Title",
+    "question": "The _____ Whisperer"
+  }, {
+    "answer": "Dogs",
+    "category": "Movies with Animals in the Title",
+    "question": "All ____ Go to Heaven"
+  }, {
+    "answer": "Wolves",
+    "category": "Movies with Animals in the Title",
+    "question": "Dances with ______"
+  }, {
+    "answer": "Cuckoo",
+    "category": "Movies with Animals in the Title",
+    "question": "One Flew Over the ______'s Nest"
+  }, {
+    "answer": "Bull",
+    "category": "Movies with Animals in the Title",
+    "question": "Raging ____"
+  }, {
+    "answer": "Fish",
+    "category": "Movies with Animals in the Title",
+    "question": "A ____ Called Wanda"
+  }, {
+    "answer": "Bird",
+    "category": "Movies with Animals in the Title",
+    "question": "____ on a Wire"
+  }, {
+    "answer": "Penguins",
+    "category": "Movies with Animals in the Title",
+    "question": "March of the ________"
+  }, {
+    "answer": "Butterfly",
+    "category": "Movies with Animals in the Title",
+    "question": "The _________ Effect"
+  }, {
+    "answer": "Mouse",
+    "category": "Movies with Animals in the Title",
+    "question": "The Great _____ Detective"
+  }, {
+    "answer": "Ducks",
+    "category": "Movies with Animals in the Title",
+    "question": "The Mighty _____"
+  }, {
+    "answer": "Bears",
+    "category": "Movies with Animals in the Title",
+    "question": "The Bad News _____"
+  }, {
+    "answer": "Cobra",
+    "category": "Movies with Animals in the Title",
+    "question": "G.I. Joe: The Rise of _____"
+  }, {
+    "answer": "Pelican",
+    "category": "Movies with Animals in the Title",
+    "question": "The _______ Brief"
+  }, {
+    "answer": "Eagles",
+    "category": "Movies with Animals in the Title",
+    "question": "Where ______ Dare"
+  }, {
+    "answer": "Rabbit",
+    "category": "Movies with Animals in the Title",
+    "question": "______-Proof Fence"
+  }, {
+    "answer": "Hawk",
+    "category": "Movies with Animals in the Title",
+    "question": "Hudson ____"
+  }],
+  "quizLength": 24,
+  "title": "Movies with Animals in the Title",
+  "url": "http://www.jetpunk.com/quizzes/movies-with-animals-quiz.php"
+}

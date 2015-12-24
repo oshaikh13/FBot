@@ -1,0 +1,113 @@
+{
+    "categories": [],
+    "description": " Which main character goes with these sidekicks?",
+    "difficulty": -1,
+    "questions": [{
+        "answer": "Batman",
+        "category": "Sidekicks Quiz",
+        "question": "Robin"
+    }, {
+        "answer": "Harry Potter",
+        "category": "Sidekicks Quiz",
+        "question": "Ron Weasley"
+    }, {
+        "answer": "Mario",
+        "category": "Sidekicks Quiz",
+        "question": "Luigi"
+    }, {
+        "answer": "Sherlock Holmes",
+        "category": "Sidekicks Quiz",
+        "question": "Dr. Watson"
+    }, {
+        "answer": "Shrek",
+        "category": "Sidekicks Quiz",
+        "question": "Donkey"
+    }, {
+        "answer": "Han Solo",
+        "category": "Sidekicks Quiz",
+        "question": "Chewbacca"
+    }, {
+        "answer": "Robin Hood",
+        "category": "Sidekicks Quiz",
+        "question": "Little John"
+    }, {
+        "answer": "Wallace",
+        "category": "Sidekicks Quiz",
+        "question": "Gromit"
+    }, {
+        "answer": "Paul Simon",
+        "category": "Sidekicks Quiz",
+        "question": "Art Garfunkel"
+    }, {
+        "answer": "Captain Kirk",
+        "category": "Sidekicks Quiz",
+        "question": "Spock"
+    }, {
+        "answer": "Dr. Evil",
+        "category": "Sidekicks Quiz",
+        "question": "Mini-Me"
+    }, {
+        "answer": "Fred Flintstone",
+        "category": "Sidekicks Quiz",
+        "question": "Barney Rubble"
+    }, {
+        "answer": "SpongeBob Squarepants",
+        "category": "Sidekicks Quiz",
+        "question": "Patrick Star"
+    }, {
+        "answer": "Yogi Bear",
+        "category": "Sidekicks Quiz",
+        "question": "Boo-Boo"
+    }, {
+        "answer": "Frodo Baggins",
+        "category": "Sidekicks Quiz",
+        "question": "Samwise Gamgee"
+    }, {
+        "answer": "Garfield",
+        "category": "Sidekicks Quiz",
+        "question": "Odie"
+    }, {
+        "answer": "Mr. Burns",
+        "category": "Sidekicks Quiz",
+        "question": "Waylon Smithers"
+    }, {
+        "answer": "Lone Ranger",
+        "category": "Sidekicks Quiz",
+        "question": "Tonto"
+    }, {
+        "answer": "Jerry Seinfeld",
+        "category": "Sidekicks Quiz",
+        "question": "George Costanza"
+    }, {
+        "answer": "Maverick",
+        "category": "Sidekicks Quiz",
+        "question": "Goose"
+    }, {
+        "answer": "Dilbert",
+        "category": "Sidekicks Quiz",
+        "question": "Dogbert"
+    }, {
+        "answer": "Don Quixote",
+        "category": "Sidekicks Quiz",
+        "question": "Sancho Panza"
+    }, {
+        "answer": "Buffy Summers",
+        "category": "Sidekicks Quiz",
+        "question": "Willow Rosenberg"
+    }, {
+        "answer": "Johnny Carson",
+        "category": "Sidekicks Quiz",
+        "question": "Ed McMahon"
+    }, {
+        "answer": "Conan O'Brien",
+        "category": "Sidekicks Quiz",
+        "question": "Andy Richter"
+    }, {
+        "answer": "Michael Scott",
+        "category": "Sidekicks Quiz",
+        "question": "Dwight Schrute"
+    }],
+    "quizLength": 26,
+    "title": "Sidekicks Quiz",
+    "url": "http://www.jetpunk.com/quizzes/sidekicks-quiz.php"
+}

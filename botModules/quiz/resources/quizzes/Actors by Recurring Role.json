@@ -1,0 +1,105 @@
+{
+    "categories": [],
+    "description": " Name these actors who starred in recurring roles.",
+    "difficulty": -1,
+    "questions": [{
+        "answer": "Harrison Ford",
+        "category": "Actors by Recurring Role",
+        "question": "Indiana Jones - 4, 1981-2008"
+    }, {
+        "answer": "Hugh Jackman",
+        "category": "Actors by Recurring Role",
+        "question": "Wolverine - 8, 2000-2016"
+    }, {
+        "answer": "Robert Downey Jr.",
+        "category": "Actors by Recurring Role",
+        "question": "Iron Man - 7, 2008-2016"
+    }, {
+        "answer": "Sean Connery",
+        "category": "Actors by Recurring Role",
+        "question": "James Bond - 7, 1962-1983"
+    }, {
+        "answer": "Sylvester Stallone",
+        "category": "Actors by Recurring Role",
+        "question": "John Rambo - 5, 1982-2015"
+    }, {
+        "answer": "Emma Watson",
+        "category": "Actors by Recurring Role",
+        "question": "Hermione Granger - 8, 2001-2011"
+    }, {
+        "answer": "Tobey Maguire",
+        "category": "Actors by Recurring Role",
+        "question": "Spider-man - 3, 2002-2007"
+    }, {
+        "answer": "Clint Eastwood",
+        "category": "Actors by Recurring Role",
+        "question": "\"Dirty\" Harry Callahan - 5, 1971-1988"
+    }, {
+        "answer": "Roger Moore",
+        "category": "Actors by Recurring Role",
+        "question": "James Bond - 7, 1973-1985"
+    }, {
+        "answer": "Christopher Reeve",
+        "category": "Actors by Recurring Role",
+        "question": "Superman - 4, 1978-1987"
+    }, {
+        "answer": "Leonard Nimoy",
+        "category": "Actors by Recurring Role",
+        "question": "Mr. Spock - 8, 1979-2013"
+    }, {
+        "answer": "Ian McKellen",
+        "category": "Actors by Recurring Role",
+        "question": "Gandalf - 6, 2001-2014"
+    }, {
+        "answer": "William Shatner",
+        "category": "Actors by Recurring Role",
+        "question": "James T Kirk - 7, 1979-1994"
+    }, {
+        "answer": "Samuel L. Jackson",
+        "category": "Actors by Recurring Role",
+        "question": "Nick Fury - 7, 2008-2015"
+    }, {
+        "answer": "Judi Dench",
+        "category": "Actors by Recurring Role",
+        "question": "M - 7, 1995-2012"
+    }, {
+        "answer": "Chevy Chase",
+        "category": "Actors by Recurring Role",
+        "question": "Clark Griswold - 6, 1983-2015"
+    }, {
+        "answer": "Tyler Perry",
+        "category": "Actors by Recurring Role",
+        "question": "Mabel \"Madea\" Simmons - 9, 2005-2014"
+    }, {
+        "answer": "Vin Diesel",
+        "category": "Actors by Recurring Role",
+        "question": "Dominic Toretto - 6, 2001-2015"
+    }, {
+        "answer": "Eugene Levy",
+        "category": "Actors by Recurring Role",
+        "question": "Noah Levenstein (Jim's dad) - 8, 1999-2012"
+    }, {
+        "answer": "Anthony Daniels",
+        "category": "Actors by Recurring Role",
+        "question": "C3PO - 7, 1977-2015"
+    }, {
+        "answer": "Patrick Stewart",
+        "category": "Actors by Recurring Role",
+        "question": "Proffessor Xavier, 2000-2015"
+    }, {
+        "answer": "Arnold Schwarzenegger",
+        "category": "Actors by Recurring Role",
+        "question": "The Terminator, 1984-2015"
+    }, {
+        "answer": "Mel Gibson",
+        "category": "Actors by Recurring Role",
+        "question": "Mad Max, 1979-1985"
+    }, {
+        "answer": "Alan Rickman",
+        "category": "Actors by Recurring Role",
+        "question": "Severus Snape, 2001-2011"
+    }],
+    "quizLength": 24,
+    "title": "Actors by Recurring Role",
+    "url": "http://www.jetpunk.com/user-quizzes/30947/actors-by-recurring-role"
+}

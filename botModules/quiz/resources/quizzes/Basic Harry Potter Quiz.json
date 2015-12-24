@@ -1,0 +1,129 @@
+{
+    "categories": [],
+    "description": "Basic Harry Potter trivia!",
+    "difficulty": 2,
+    "questions": [{
+        "answer": "Hogwarts",
+        "category": "Basic Harry Potter Quiz",
+        "question": "What school does Harry Potter attend?"
+    }, {
+        "answer": "Albus Dumbledore",
+        "category": "Basic Harry Potter Quiz",
+        "question": "Who is the headmaster of the school Harry attends?"
+    }, {
+        "answer": "Lord Voldemort",
+        "category": "Basic Harry Potter Quiz",
+        "question": "Who is Harry Potters greatest enemy?"
+    }, {
+        "answer": "Ron Weasley",
+        "category": "Basic Harry Potter Quiz",
+        "question": "Who is Harry Potters closest friend (male)?"
+    }, {
+        "answer": "Hermione Granger",
+        "category": "Basic Harry Potter Quiz",
+        "question": "Who is Harry Potters closest friend (female)?"
+    }, {
+        "answer": "Quidditch",
+        "category": "Basic Harry Potter Quiz",
+        "question": "What game, using flying broomsticks, is played by wizards?"
+    }, {
+        "answer": "Severus Snape",
+        "category": "Basic Harry Potter Quiz",
+        "question": "What teacher, despised by many, teaches potions?"
+    }, {
+        "answer": "Owl",
+        "category": "Basic Harry Potter Quiz",
+        "question": "And what type of animal is it?"
+    }, {
+        "answer": "Hagrid",
+        "category": "Basic Harry Potter Quiz",
+        "question": "Who tells Harry that he is, in fact, a wizard?"
+    }, {
+        "answer": "J.K. Rowling",
+        "category": "Basic Harry Potter Quiz",
+        "question": "Who wrote the Harry Potter series?"
+    }, {
+        "answer": "United Kingdom",
+        "category": "Basic Harry Potter Quiz",
+        "question": "In what country are the books set?"
+    }, {
+        "answer": "9 3/4",
+        "category": "Basic Harry Potter Quiz",
+        "question": "What platform does the train to the school depart from?"
+    }, {
+        "answer": "House elf",
+        "category": "Basic Harry Potter Quiz",
+        "question": "What type of creature is Dobby?"
+    }, {
+        "answer": "Slytherin",
+        "category": "Basic Harry Potter Quiz",
+        "question": "What house is Draco Malfoy a part of?"
+    }, {
+        "answer": "Azkaban",
+        "category": "Basic Harry Potter Quiz",
+        "question": "What prison does Sirius Black escape from?"
+    }, {
+        "answer": "Seeker",
+        "category": "Basic Harry Potter Quiz",
+        "question": "In this game, what is Harry Potter's position?"
+    }, {
+        "answer": "Lily Potter",
+        "category": "Basic Harry Potter Quiz",
+        "question": "What is Harry's mothers name?"
+    }, {
+        "answer": "Ravenclaw",
+        "category": "Basic Harry Potter Quiz",
+        "question": "What house has the house colour of blue?"
+    }, {
+        "answer": "Fred",
+        "category": "Basic Harry Potter Quiz",
+        "question": "Who is George Weasley's twin?"
+    }, {
+        "answer": "Hedwig",
+        "category": "Basic Harry Potter Quiz",
+        "question": "What is the name of Harry's pet?"
+    }, {
+        "answer": "Horcruxes",
+        "category": "Basic Harry Potter Quiz",
+        "question": "What are Tom Riddle's diary and Rowena Ravenclaw's diadem?"
+    }, {
+        "answer": "Basilisk",
+        "category": "Basic Harry Potter Quiz",
+        "question": "What creature, from the Chamber of Secrets, paralyzes and kills students in Harry's second year?"
+    }, {
+        "answer": "Cedric Diggory",
+        "category": "Basic Harry Potter Quiz",
+        "question": "Who dies during the Triwizard Tornament?"
+    }, {
+        "answer": "Dementor",
+        "category": "Basic Harry Potter Quiz",
+        "question": "What will \"suck all the happiness from you\"?"
+    }, {
+        "answer": "Moaning Myrtle",
+        "category": "Basic Harry Potter Quiz",
+        "question": "Who haunts the girls bathroom?"
+    }, {
+        "answer": "Luna Lovegood",
+        "category": "Basic Harry Potter Quiz",
+        "question": "Who has radish earrings?"
+    }, {
+        "answer": "Unlocks",
+        "category": "Basic Harry Potter Quiz",
+        "question": "What does the spell \"Alohomora\" do"
+    }, {
+        "answer": "Nagini",
+        "category": "Basic Harry Potter Quiz",
+        "question": "What is the name of Voldemorts snake?"
+    }, {
+        "answer": "Peeves",
+        "category": "Basic Harry Potter Quiz",
+        "question": "Who is the mischievous poltergeist that wreaks havoc throughout the school?"
+    }, {
+        "answer": "Yule Ball",
+        "category": "Basic Harry Potter Quiz",
+        "question": "What ball does the school hold?"
+    }],
+    "quizLength": 30,
+    "title": "Basic Harry Potter Quiz",
+    "url": "http://www.jetpunk.com/user-quizzes/26045/basic-harry-potter-quiz"
+}

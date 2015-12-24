@@ -1,0 +1,169 @@
+{
+    "categories": [],
+    "description": "Name these famous historical figures.",
+    "difficulty": -1,
+    "questions": [{
+        "answer": "George Washington",
+        "category": "40 Historical People Quiz *",
+        "question": "First U.S. President"
+    }, {
+        "answer": "Jesus",
+        "category": "40 Historical People Quiz *",
+        "question": "Founder of Christianity"
+    }, {
+        "answer": "Adolf Hitler",
+        "category": "40 Historical People Quiz *",
+        "question": "German WWII leader"
+    }, {
+        "answer": "Martin Luther King, Jr.",
+        "category": "40 Historical People Quiz *",
+        "question": "Gave the \"I Have a Dream\" speech"
+    }, {
+        "answer": "Leonardo da Vinci",
+        "category": "40 Historical People Quiz *",
+        "question": "Mona Lisa painter"
+    }, {
+        "answer": "William Shakespeare",
+        "category": "40 Historical People Quiz *",
+        "question": "Wrote Hamlet"
+    }, {
+        "answer": "Christopher Columbus",
+        "category": "40 Historical People Quiz *",
+        "question": "\"Discovered\" the New World"
+    }, {
+        "answer": "Neil Armstrong",
+        "category": "40 Historical People Quiz *",
+        "question": "First man on the moon"
+    }, {
+        "answer": "Abraham Lincoln",
+        "category": "40 Historical People Quiz *",
+        "question": "U.S. Civil War President"
+    }, {
+        "answer": "Charles Darwin",
+        "category": "40 Historical People Quiz *",
+        "question": "\"Discovered\" evolution"
+    }, {
+        "answer": "Mohandas Gandhi",
+        "category": "40 Historical People Quiz *",
+        "question": "Father of the nation of India"
+    }, {
+        "answer": "Isaac Newton",
+        "category": "40 Historical People Quiz *",
+        "question": "\"Discovered\" gravity"
+    }, {
+        "answer": "Martin Luther",
+        "category": "40 Historical People Quiz *",
+        "question": "Started the Protestant Reformation"
+    }, {
+        "answer": "Winston Churchill",
+        "category": "40 Historical People Quiz *",
+        "question": "UK Prime Minister during WWII"
+    }, {
+        "answer": "Margaret Thatcher",
+        "category": "40 Historical People Quiz *",
+        "question": "First female Prime Minister of the UK"
+    }, {
+        "answer": "Muhammad",
+        "category": "40 Historical People Quiz *",
+        "question": "Founder of Islam"
+    }, {
+        "answer": "Queen Elizabeth I",
+        "category": "40 Historical People Quiz *",
+        "question": "Virgin Queen of England"
+    }, {
+        "answer": "Thomas Edison",
+        "category": "40 Historical People Quiz *",
+        "question": "Light bulb inventor"
+    }, {
+        "answer": "Rosa Parks",
+        "category": "40 Historical People Quiz *",
+        "question": "Refused to give up her bus seat, in Alabama"
+    }, {
+        "answer": "Napoleon",
+        "category": "40 Historical People Quiz *",
+        "question": "French Emperor, 1804-1815"
+    }, {
+        "answer": "Joan of Arc",
+        "category": "40 Historical People Quiz *",
+        "question": "French woman who led troops in the Hundred Years War"
+    }, {
+        "answer": "Homer",
+        "category": "40 Historical People Quiz *",
+        "question": "Supposedly wrote The Iliad"
+    }, {
+        "answer": "Vladimir Lenin",
+        "category": "40 Historical People Quiz *",
+        "question": "First Soviet leader"
+    }, {
+        "answer": "Ludwig van Beethoven",
+        "category": "40 Historical People Quiz *",
+        "question": "Moonlight Sonata composer"
+    }, {
+        "answer": "Alexander the Great",
+        "category": "40 Historical People Quiz *",
+        "question": "Greek who conquered Persia"
+    }, {
+        "answer": "Julius Caesar",
+        "category": "40 Historical People Quiz *",
+        "question": "Killed on the Ides of March"
+    }, {
+        "answer": "Franklin D. Roosevelt",
+        "category": "40 Historical People Quiz *",
+        "question": "New Deal President"
+    }, {
+        "answer": "Charles Dickens",
+        "category": "40 Historical People Quiz *",
+        "question": "Wrote Great Expectations"
+    }, {
+        "answer": "Jane Austen",
+        "category": "40 Historical People Quiz *",
+        "question": "Wrote Pride and Prejudice"
+    }, {
+        "answer": "Mark Twain",
+        "category": "40 Historical People Quiz *",
+        "question": "Creator of Huckleberry Finn"
+    }, {
+        "answer": "Mao Zedong",
+        "category": "40 Historical People Quiz *",
+        "question": "His \"Great Leap Forward\" killed over 30 million"
+    }, {
+        "answer": "Helen Keller",
+        "category": "40 Historical People Quiz *",
+        "question": "First deaf and blind college graduate"
+    }, {
+        "answer": "Amelia Earhart",
+        "category": "40 Historical People Quiz *",
+        "question": "Aviatrix who disappeared over the Pacific"
+    }, {
+        "answer": "Hannibal",
+        "category": "40 Historical People Quiz *",
+        "question": "Led his elephants across the Alps"
+    }, {
+        "answer": "Johannes Gutenberg",
+        "category": "40 Historical People Quiz *",
+        "question": "Invented the printing press"
+    }, {
+        "answer": "Horatio Nelson",
+        "category": "40 Historical People Quiz *",
+        "question": "Battle of Trafalgar admiral"
+    }, {
+        "answer": "James Cook",
+        "category": "40 Historical People Quiz *",
+        "question": "\"Discovered\" east coast of Australia"
+    }, {
+        "answer": "Oliver Cromwell",
+        "category": "40 Historical People Quiz *",
+        "question": "Lord Protector of England, 1653-1658"
+    }, {
+        "answer": "Simón Bolívar",
+        "category": "40 Historical People Quiz *",
+        "question": "Called the Liberator of Latin America"
+    }, {
+        "answer": "Laozi",
+        "category": "40 Historical People Quiz *",
+        "question": "Tao te Ching author"
+    }],
+    "quizLength": 40,
+    "title": "40 Historical People Quiz *",
+    "url": "http://www.jetpunk.com/quizzes/40-historical-people-everyone-should-know-quiz"
+}

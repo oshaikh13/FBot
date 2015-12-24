@@ -1,0 +1,149 @@
+{
+    "categories": [],
+    "description": "Select which movie these quotes are from!",
+    "difficulty": -1,
+    "questions": [{
+        "answer": "E. T.: The Extra-Terrestrial",
+        "category": "Top 100 Movie Quotes",
+        "question": "E.T. phone home"
+    }, {
+        "answer": "Star Wars",
+        "category": "Top 100 Movie Quotes",
+        "question": "May the Force be with you"
+    }, {
+        "answer": "The Wizard of Oz",
+        "category": "Top 100 Movie Quotes",
+        "question": "Toto, I've got a feeling we're not in Kansas anymore"
+    }, {
+        "answer": "The Wizard of Oz",
+        "category": "Top 100 Movie Quotes",
+        "question": "There's no place like home"
+    },  {
+        "answer": "The Terminator",
+        "category": "Top 100 Movie Quotes",
+        "question": "I'll be back"
+    }, {
+        "answer": "The Godfather",
+        "category": "Top 100 Movie Quotes",
+        "question": "I'm going to make him an offer he can't refuse"
+    }, {
+        "answer": "Forrest Gump",
+        "category": "Top 100 Movie Quotes",
+        "question": "Life is like a box of chocolates."
+    }, {
+        "answer": "Gone With the Wind",
+        "category": "Top 100 Movie Quotes",
+        "question": "Frankly, my dear, I don't give a damn"
+    }, {
+        "answer": "Casablanca",
+        "category": "Top 100 Movie Quotes",
+        "question": "Here's looking at you, kid"
+    }, {
+        "answer": "Titanic",
+        "category": "Top 100 Movie Quotes",
+        "question": "I'm king of the world!"
+    }, {
+        "answer": "Rocky",
+        "category": "Top 100 Movie Quotes",
+        "question": "Yo, Adrian!"
+    }, {
+        "answer": "Apollo 13",
+        "category": "Top 100 Movie Quotes",
+        "question": "Houston, we have a problem"
+    }, {
+        "answer": "The Lord of the Rings: The Two Towers",
+        "category": "Top 100 Movie Quotes",
+        "question": "My Precious"
+    }, {
+        "answer": "The Sixth Sense",
+        "category": "Top 100 Movie Quotes",
+        "question": "I see dead people"
+    }, {
+        "answer": "The Adventures of Sherlock Holmes",
+        "category": "Top 100 Movie Quotes",
+        "question": "Elementary, my dear Watson"
+    }, {
+        "answer": "The Shining",
+        "category": "Top 100 Movie Quotes",
+        "question": "Here's Johnny!"
+    }, {
+        "answer": "Jerry Maguire",
+        "category": "Top 100 Movie Quotes",
+        "question": "Show me the money!"
+    }, {
+        "answer": "Dirty Harry",
+        "category": "Top 100 Movie Quotes",
+        "question": "Do you feel lucky? Well, do ya, punk?"
+    }, {
+        "answer": "The Graduate",
+        "category": "Top 100 Movie Quotes",
+        "question": "Mrs. Robinson, you're trying to seduce me. Aren't you?"
+    }, {
+        "answer": "Dirty Dancing",
+        "category": "Top 100 Movie Quotes",
+        "question": "Nobody puts Baby in a corner"
+    }, {
+        "answer": "Jaws",
+        "category": "Top 100 Movie Quotes",
+        "question": "You're gonna need a bigger boat"
+    }, {
+        "answer": "Frankenstein",
+        "category": "Top 100 Movie Quotes",
+        "question": "It's alive! It's alive!"
+    }, {
+        "answer": "Scarface",
+        "category": "Top 100 Movie Quotes",
+        "question": "Say 'hello' to my little friend!"
+    }, {
+        "answer": "Taxi Driver",
+        "category": "Top 100 Movie Quotes",
+        "question": "You talkin' to me?"
+    }, {
+        "answer": "Apocalypse Now",
+        "category": "Top 100 Movie Quotes",
+        "question": "I love the smell of napalm in the morning"
+    }, {
+        "answer": "Field of Dreams",
+        "category": "Top 100 Movie Quotes",
+        "question": "If you build it, they will come"
+    }, {
+        "answer": "Planet of the Apes",
+        "category": "Top 100 Movie Quotes",
+        "question": "Get your stinking paws off me, you damned dirty ape"
+    }, {
+        "answer": "Terminator 2: Judgement Day",
+        "category": "Top 100 Movie Quotes",
+        "question": "Hasta la vista, baby"
+    }, {
+        "answer": "A Few Good Men",
+        "category": "Top 100 Movie Quotes",
+        "question": "You can't handle the truth!"
+    }, {
+        "answer": "2001: A Space Odyssey",
+        "category": "Top 100 Movie Quotes",
+        "question": "Open the pod bay doors, HAL"
+    }, {
+        "answer": "Citizen Kane",
+        "category": "Top 100 Movie Quotes",
+        "question": "Rosebud"
+    }, {
+        "answer": "Animal House",
+        "category": "Top 100 Movie Quotes",
+        "question": "Toga! Toga!"
+    }, {
+        "answer": "Dr. No",
+        "category": "Top 100 Movie Quotes",
+        "question": "Bond. James Bond"
+    }, {
+        "answer": "A League of Their Own",
+        "category": "Top 100 Movie Quotes",
+        "question": "There's no crying in baseball!"
+    },  {
+        "answer": "Dr. Strangelove",
+        "category": "Top 100 Movie Quotes",
+        "question": "You can't fight in here! This is the War Room!"
+    }],
+    "quizLength": 100,
+    "title": "Top Movie Quotes",
+    "url": "http://www.jetpunk.com/user-quizzes/13441/top-100-movie-quotes"
+}

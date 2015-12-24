@@ -1,0 +1,105 @@
+{
+    "categories": [],
+    "description": "Name the authors of famous books.",
+    "difficulty": -1,
+    "questions": [{
+        "answer": "William Shakespeare",
+        "category": "Who Wrote That Book Quiz",
+        "question": "Hamlet"
+    }, {
+        "answer": "George Orwell",
+        "category": "Who Wrote That Book Quiz",
+        "question": "1984"
+    }, {
+        "answer": "Homer",
+        "category": "Who Wrote That Book Quiz",
+        "question": "The Iliad"
+    }, {
+        "answer": "Charles Dickens",
+        "category": "Who Wrote That Book Quiz",
+        "question": "Great Expectations"
+    }, {
+        "answer": "Leo Tolstoy",
+        "category": "Who Wrote That Book Quiz",
+        "question": "Anna Karenina"
+    }, {
+        "answer": "Emily Bronte",
+        "category": "Who Wrote That Book Quiz",
+        "question": "Wuthering Heights"
+    }, {
+        "answer": "Victor Hugo",
+        "category": "Who Wrote That Book Quiz",
+        "question": "Les Miserables"
+    }, {
+        "answer": "F. Scott Fitzgerald",
+        "category": "Who Wrote That Book Quiz",
+        "question": "The Great Gatsby"
+    }, {
+        "answer": "J.D. Salinger",
+        "category": "Who Wrote That Book Quiz",
+        "question": "The Catcher in the Rye"
+    }, {
+        "answer": "John Steinbeck",
+        "category": "Who Wrote That Book Quiz",
+        "question": "The Grapes of Wrath"
+    }, {
+        "answer": "Ernest Hemingway",
+        "category": "Who Wrote That Book Quiz",
+        "question": "A Farewell to Arms"
+    }, {
+        "answer": "Fyodor Dostoyevsky",
+        "category": "Who Wrote That Book Quiz",
+        "question": "Crime and Punishment"
+    }, {
+        "answer": "Geoffrey Chaucer",
+        "category": "Who Wrote That Book Quiz",
+        "question": "The Canterbury Tales"
+    }, {
+        "answer": "Jack Kerouac",
+        "category": "Who Wrote That Book Quiz",
+        "question": "On the Road"
+    }, {
+        "answer": "Miguel de Cervantes",
+        "category": "Who Wrote That Book Quiz",
+        "question": "Don Quixote"
+    }, {
+        "answer": "Joseph Conrad",
+        "category": "Who Wrote That Book Quiz",
+        "question": "Heart of Darkness"
+    }, {
+        "answer": "Sylvia Plath",
+        "category": "Who Wrote That Book Quiz",
+        "question": "The Bell Jar"
+    }, {
+        "answer": "Vladimir Nabokov",
+        "category": "Who Wrote That Book Quiz",
+        "question": "Lolita"
+    }, {
+        "answer": "William Golding",
+        "category": "Who Wrote That Book Quiz",
+        "question": "Lord of the Flies"
+    }, {
+        "answer": "Jonathan Swift",
+        "category": "Who Wrote That Book Quiz",
+        "question": "Gulliver's Travels"
+    }, {
+        "answer": "Joseph Heller",
+        "category": "Who Wrote That Book Quiz",
+        "question": "Catch-22"
+    }, {
+        "answer": "Kurt Vonnegut",
+        "category": "Who Wrote That Book Quiz",
+        "question": "Slaughterhouse-Five"
+    }, {
+        "answer": "Gustave Flaubert",
+        "category": "Who Wrote That Book Quiz",
+        "question": "Madame Bovary"
+    }, {
+        "answer": "Thomas Pynchon",
+        "category": "Who Wrote That Book Quiz",
+        "question": "Gravity's Rainbow"
+    }],
+    "quizLength": 24,
+    "title": "Who Wrote That Book Quiz",
+    "url": "http://www.jetpunk.com/quizzes/who-wrote-that-book-quiz.php"
+}

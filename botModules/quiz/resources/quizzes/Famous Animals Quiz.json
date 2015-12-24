@@ -1,0 +1,105 @@
+{
+    "categories": [],
+    "description": "Guess the type of these famous animals.",
+    "difficulty": -1,
+    "questions": [{
+        "answer": "Mouse",
+        "category": "Famous Animals Quiz",
+        "question": "Mickey"
+    }, {
+        "answer": "Cat",
+        "category": "Famous Animals Quiz",
+        "question": "Garfield"
+    }, {
+        "answer": "Clownfish",
+        "category": "Famous Animals Quiz",
+        "question": "Nemo"
+    }, {
+        "answer": "Duck",
+        "category": "Famous Animals Quiz",
+        "question": "Daffy"
+    }, {
+        "answer": "Elephant",
+        "category": "Famous Animals Quiz",
+        "question": "Dumbo"
+    }, {
+        "answer": "Lion",
+        "category": "Famous Animals Quiz",
+        "question": "Mufasa"
+    }, {
+        "answer": "Dog",
+        "category": "Famous Animals Quiz",
+        "question": "Lassie"
+    }, {
+        "answer": "Reindeer",
+        "category": "Famous Animals Quiz",
+        "question": "Rudolph"
+    }, {
+        "answer": "Chipmunk",
+        "category": "Famous Animals Quiz",
+        "question": "Alvin"
+    }, {
+        "answer": "Frog",
+        "category": "Famous Animals Quiz",
+        "question": "Kermit"
+    }, {
+        "answer": "Dolphin",
+        "category": "Famous Animals Quiz",
+        "question": "Flipper"
+    }, {
+        "answer": "Bear",
+        "category": "Famous Animals Quiz",
+        "question": "Yogi"
+    }, {
+        "answer": "Spider",
+        "category": "Famous Animals Quiz",
+        "question": "Charlotte"
+    }, {
+        "answer": "Donkey",
+        "category": "Famous Animals Quiz",
+        "question": "Eeyore"
+    }, {
+        "answer": "Killer Whale",
+        "category": "Famous Animals Quiz",
+        "question": "Shamu"
+    }, {
+        "answer": "Penguin",
+        "category": "Famous Animals Quiz",
+        "question": "Pingu"
+    }, {
+        "answer": "Skunk",
+        "category": "Famous Animals Quiz",
+        "question": "Pepé Le Pew"
+    }, {
+        "answer": "Turtle",
+        "category": "Famous Animals Quiz",
+        "question": "Yertle"
+    }, {
+        "answer": "Owl",
+        "category": "Famous Animals Quiz",
+        "question": "Hedwig"
+    }, {
+        "answer": "Moose",
+        "category": "Famous Animals Quiz",
+        "question": "Bullwinkle"
+    }, {
+        "answer": "Rat",
+        "category": "Famous Animals Quiz",
+        "question": "Splinter"
+    }, {
+        "answer": "Horse",
+        "category": "Famous Animals Quiz",
+        "question": "Shadowfax"
+    }, {
+        "answer": "Monkey",
+        "category": "Famous Animals Quiz",
+        "question": "Marcel"
+    }, {
+        "answer": "Gorilla",
+        "category": "Famous Animals Quiz",
+        "question": "Koko"
+    }],
+    "quizLength": 24,
+    "title": "Famous Animals Quiz",
+    "url": "http://www.jetpunk.com/quizzes/famous-animals-quiz.php"
+}

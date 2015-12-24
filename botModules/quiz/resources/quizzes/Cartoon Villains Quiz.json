@@ -1,0 +1,105 @@
+{
+    "categories": [],
+    "description": "Name the cartoons that featured these famous villains.",
+    "difficulty": -1,
+    "questions": [{
+        "answer": "Peter Pan",
+        "category": "Cartoon Villains Quiz",
+        "question": "Captain Hook"
+    }, {
+        "answer": "Batman",
+        "category": "Cartoon Villains Quiz",
+        "question": "The Joker"
+    }, {
+        "answer": "The Lion King",
+        "category": "Cartoon Villains Quiz",
+        "question": "Scar"
+    }, {
+        "answer": "101 Dalmatians",
+        "category": "Cartoon Villains Quiz",
+        "question": "Cruella de Vil"
+    }, {
+        "answer": "Aladdin",
+        "category": "Cartoon Villains Quiz",
+        "question": "Jafar"
+    }, {
+        "answer": "The Little Mermaid",
+        "category": "Cartoon Villains Quiz",
+        "question": "Ursula"
+    }, {
+        "answer": "SpongeBob SquarePants",
+        "category": "Cartoon Villains Quiz",
+        "question": "Plankton"
+    }, {
+        "answer": "Road Runner",
+        "category": "Cartoon Villains Quiz",
+        "question": "Wile E. Coyote"
+    }, {
+        "answer": "Transformers",
+        "category": "Cartoon Villains Quiz",
+        "question": "Megatron"
+    }, {
+        "answer": "X-Men",
+        "category": "Cartoon Villains Quiz",
+        "question": "Magneto"
+    }, {
+        "answer": "Sleeping Beauty",
+        "category": "Cartoon Villains Quiz",
+        "question": "Maleficent"
+    }, {
+        "answer": "Spider-Man",
+        "category": "Cartoon Villains Quiz",
+        "question": "Dr. Octopus"
+    }, {
+        "answer": "Teenage Mutant Ninja Turtles",
+        "category": "Cartoon Villains Quiz",
+        "question": "Shredder"
+    }, {
+        "answer": "The Simpsons",
+        "category": "Cartoon Villains Quiz",
+        "question": "Sideshow Bob"
+    }, {
+        "answer": "The Smurfs",
+        "category": "Cartoon Villains Quiz",
+        "question": "Gargamel"
+    }, {
+        "answer": "G.I. Joe",
+        "category": "Cartoon Villains Quiz",
+        "question": "Cobra Commander"
+    }, {
+        "answer": "Masters of the Universe",
+        "category": "Cartoon Villains Quiz",
+        "question": "Skeletor"
+    }, {
+        "answer": "The Powerpuff Girls",
+        "category": "Cartoon Villains Quiz",
+        "question": "Mojo Jojo"
+    }, {
+        "answer": "Popeye",
+        "category": "Cartoon Villains Quiz",
+        "question": "Bluto"
+    }, {
+        "answer": "Captain Planet",
+        "category": "Cartoon Villains Quiz",
+        "question": "Captain Pollution"
+    }, {
+        "answer": "Inspector Gadget",
+        "category": "Cartoon Villains Quiz",
+        "question": "Dr. Claw"
+    }, {
+        "answer": "Rocky & Bullwinkle",
+        "category": "Cartoon Villains Quiz",
+        "question": "Boris & Natasha"
+    }, {
+        "answer": "ThunderCats",
+        "category": "Cartoon Villains Quiz",
+        "question": "Mumm-Ra"
+    }, {
+        "answer": "Darkwing Duck",
+        "category": "Cartoon Villains Quiz",
+        "question": "Negaduck"
+    }],
+    "quizLength": 24,
+    "title": "Cartoon Villains Quiz",
+    "url": "http://www.jetpunk.com/quizzes/cartoon-villains-quiz.php"
+}

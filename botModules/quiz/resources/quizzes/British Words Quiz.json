@@ -1,0 +1,113 @@
+{
+    "categories": [],
+    "description": "Translate these British words into their American equivalents.",
+    "difficulty": -1,
+    "questions": [{
+        "answer": "Soccer",
+        "category": "British Words Quiz",
+        "question": "Football"
+    }, {
+        "answer": "Fries",
+        "category": "British Words Quiz",
+        "question": "Chips"
+    }, {
+        "answer": "Chips",
+        "category": "British Words Quiz",
+        "question": "Crisps"
+    }, {
+        "answer": "Bathroom",
+        "category": "British Words Quiz",
+        "question": "Loo"
+    }, {
+        "answer": "Gas",
+        "category": "British Words Quiz",
+        "question": "Petrol"
+    }, {
+        "answer": "Line",
+        "category": "British Words Quiz",
+        "question": "Queue"
+    }, {
+        "answer": "Apartment",
+        "category": "British Words Quiz",
+        "question": "Flat"
+    }, {
+        "answer": "Cookie",
+        "category": "British Words Quiz",
+        "question": "Biscuit"
+    }, {
+        "answer": "Truck",
+        "category": "British Words Quiz",
+        "question": "Lorry"
+    }, {
+        "answer": "Sneakers",
+        "category": "British Words Quiz",
+        "question": "Trainers"
+    }, {
+        "answer": "Diaper",
+        "category": "British Words Quiz",
+        "question": "Nappy"
+    }, {
+        "answer": "Exit",
+        "category": "British Words Quiz",
+        "question": "Way Out"
+    }, {
+        "answer": "Drunk",
+        "category": "British Words Quiz",
+        "question": "Pissed"
+    }, {
+        "answer": "Lawyer",
+        "category": "British Words Quiz",
+        "question": "Barrister"
+    }, {
+        "answer": "Pharmacy",
+        "category": "British Words Quiz",
+        "question": "Chemist"
+    }, {
+        "answer": "Zee",
+        "category": "British Words Quiz",
+        "question": "Zed"
+    }, {
+        "answer": "Hood",
+        "category": "British Words Quiz",
+        "question": "Bonnet (car)"
+    }, {
+        "answer": "Thanks",
+        "category": "British Words Quiz",
+        "question": "Ta"
+    }, {
+        "answer": "Complain",
+        "category": "British Words Quiz",
+        "question": "Whinge"
+    }, {
+        "answer": "Period",
+        "category": "British Words Quiz",
+        "question": "Full Stop"
+    }, {
+        "answer": "Baked Potato",
+        "category": "British Words Quiz",
+        "question": "Jacket Potato"
+    }, {
+        "answer": "Second Floor",
+        "category": "British Words Quiz",
+        "question": "First Floor"
+    }, {
+        "answer": "Main Street",
+        "category": "British Words Quiz",
+        "question": "High Street"
+    }, {
+        "answer": "Muffler",
+        "category": "British Words Quiz",
+        "question": "Silencer (car)"
+    }, {
+        "answer": "Bumper Cars",
+        "category": "British Words Quiz",
+        "question": "Dodgems"
+    }, {
+        "answer": "Crosswalk",
+        "category": "British Words Quiz",
+        "question": "Zebra Crossing"
+    }],
+    "quizLength": 26,
+    "title": "British Words Quiz",
+    "url": "http://www.jetpunk.com/quizzes/british-words-quiz.php"
+}

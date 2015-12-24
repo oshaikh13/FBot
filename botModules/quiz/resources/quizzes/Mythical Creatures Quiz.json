@@ -1,0 +1,165 @@
+{
+    "categories": [],
+    "description": " Name these mythical creatures. ",
+    "difficulty": -1,
+    "questions": [{
+        "answer": "Unicorn",
+        "category": "Mythical Creatures Quiz",
+        "question": "Horse with a horn on its forehead"
+    }, {
+        "answer": "Mermaid",
+        "category": "Mythical Creatures Quiz",
+        "question": "Half woman - half fish"
+    }, {
+        "answer": "Phoenix",
+        "category": "Mythical Creatures Quiz",
+        "question": "Bird that rises from its own ashes"
+    }, {
+        "answer": "Werewolf",
+        "category": "Mythical Creatures Quiz",
+        "question": "Human who becomes a wolf-like beast under the full moon"
+    }, {
+        "answer": "Genie",
+        "category": "Mythical Creatures Quiz",
+        "question": "Arabic spirit that might appear from a magic lamp"
+    }, {
+        "answer": "Cyclops",
+        "category": "Mythical Creatures Quiz",
+        "question": "One-eyed giant"
+    }, {
+        "answer": "Troll",
+        "category": "Mythical Creatures Quiz",
+        "question": "Huge, stupid creature that might live under a bridge"
+    }, {
+        "answer": "Centaur",
+        "category": "Mythical Creatures Quiz",
+        "question": "Half man - half horse"
+    }, {
+        "answer": "Leprechaun",
+        "category": "Mythical Creatures Quiz",
+        "question": "Tiny, mischievous, gold-hording Irish spirit"
+    }, {
+        "answer": "Yeti",
+        "category": "Mythical Creatures Quiz",
+        "question": "Abominable snowman"
+    }, {
+        "answer": "Minotaur",
+        "category": "Mythical Creatures Quiz",
+        "question": "Head of a bull - body of a man"
+    }, {
+        "answer": "Kraken",
+        "category": "Mythical Creatures Quiz",
+        "question": "Gigantic octopus-like sea monster"
+    }, {
+        "answer": "Banshee",
+        "category": "Mythical Creatures Quiz",
+        "question": "Irish spirit with a piercing wail"
+    }, {
+        "answer": "Hydra",
+        "category": "Mythical Creatures Quiz",
+        "question": "Many-headed water serpent"
+    }, {
+        "answer": "Griffin",
+        "category": "Mythical Creatures Quiz",
+        "question": "Body of a lion - head and wings of an eagle"
+    }, {
+        "answer": "Cerberus",
+        "category": "Mythical Creatures Quiz",
+        "question": "3-headed dog that guards Hades"
+    }, {
+        "answer": "Sasquatch",
+        "category": "Mythical Creatures Quiz",
+        "question": "Pacific Northwest bigfoot"
+    }, {
+        "answer": "Chupacabra",
+        "category": "Mythical Creatures Quiz",
+        "question": "Latin American animal that drinks the blood of livestock"
+    }, {
+        "answer": "Gorgon",
+        "category": "Mythical Creatures Quiz",
+        "question": "What Medusa was"
+    }, {
+        "answer": "Harpy",
+        "category": "Mythical Creatures Quiz",
+        "question": "Ugly, bird-winged woman"
+    }, {
+        "answer": "Satyr",
+        "category": "Mythical Creatures Quiz",
+        "question": "Half man, half goat with a perpetual erection"
+    }, {
+        "answer": "Basilisk",
+        "category": "Mythical Creatures Quiz",
+        "question": "Small reptile that can kill with a glance"
+    }, {
+        "answer": "Dragon",
+        "category": "Mythical Creatures Quiz #2",
+        "question": "Flying reptile that breathes fire"
+    }, {
+        "answer": "Vampire",
+        "category": "Mythical Creatures Quiz #2",
+        "question": "Vants to suck your blood"
+    }, {
+        "answer": "Fairy",
+        "category": "Mythical Creatures Quiz #2",
+        "question": "What Tinkerbell is"
+    }, {
+        "answer": "Zombie",
+        "category": "Mythical Creatures Quiz #2",
+        "question": "Reanimated corpse who needs BRAAAINS"
+    }, {
+        "answer": "Elf",
+        "category": "Mythical Creatures Quiz #2",
+        "question": "Immortal being with pointy ears and archery skills"
+    }, {
+        "answer": "Bigfoot",
+        "category": "Mythical Creatures Quiz #2",
+        "question": "Another name for a sasquatch"
+    }, {
+        "answer": "Pegasus",
+        "category": "Mythical Creatures Quiz #2",
+        "question": "Winged horse ridden by Bellerophon"
+    }, {
+        "answer": "Siren",
+        "category": "Mythical Creatures Quiz #2",
+        "question": "Beautiful female creature who lures men with song"
+    }, {
+        "answer": "Grim Reaper",
+        "category": "Mythical Creatures Quiz #2",
+        "question": "Scythe-carrying harbinger of death"
+    }, {
+        "answer": "Ent",
+        "category": "Mythical Creatures Quiz #2",
+        "question": "Talking tree of Middle Earth"
+    }, {
+        "answer": "Succubus",
+        "category": "Mythical Creatures Quiz #2",
+        "question": "Female spirit who seduces men and saps their life"
+    }, {
+        "answer": "Sphinx",
+        "category": "Mythical Creatures Quiz #2",
+        "question": "Body of a lion, wings of a bird, face of a woman"
+    }, {
+        "answer": "Golem",
+        "category": "Mythical Creatures Quiz #2",
+        "question": "Jewish animated being, made from clay"
+    }, {
+        "answer": "Gremlin",
+        "category": "Mythical Creatures Quiz #2",
+        "question": "Imp who sabotages aircraft"
+    }, {
+        "answer": "Chimera",
+        "category": "Mythical Creatures Quiz #2",
+        "question": "Lion with a snake's head on its tail and a goat's head on its back"
+    }, {
+        "answer": "Cthulhu",
+        "category": "Mythical Creatures Quiz #2",
+        "question": "Impossible to pronounce creature with tentacled mouth and wings"
+    }, {
+        "answer": "Hippogriff",
+        "category": "Mythical Creatures Quiz #2",
+        "question": "Winged horse with an eagle's head"
+    }],
+    "quizLength": 39,
+    "title": "Mythical Creatures Quiz",
+    "url": "http://www.jetpunk.com/quizzes/mythical-creatures-quiz.php"
+}

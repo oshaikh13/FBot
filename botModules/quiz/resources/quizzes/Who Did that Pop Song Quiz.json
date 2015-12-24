@@ -1,0 +1,125 @@
+{
+    "categories": [],
+    "description": "Name the artist that wrote these pop songs!",
+    "difficulty": -1,
+    "questions": [{
+        "answer": "Britney Spears",
+        "category": "Who Did that Pop Song Quiz",
+        "question": "1999 - ...Baby One More Time"
+    }, {
+        "answer": "Taylor Swift",
+        "category": "Who Did that Pop Song Quiz",
+        "question": "2014 - Shake it Off"
+    }, {
+        "answer": "Katy Perry",
+        "category": "Who Did that Pop Song Quiz",
+        "question": "2010 - California Gurls"
+    }, {
+        "answer": "Madonna",
+        "category": "Who Did that Pop Song Quiz",
+        "question": "1984 - Like a Virgin"
+    }, {
+        "answer": "Michael Jackson",
+        "category": "Who Did that Pop Song Quiz",
+        "question": "1983 - Billie Jean"
+    }, {
+        "answer": "Beyonce Knowles",
+        "category": "Who Did that Pop Song Quiz",
+        "question": "2008 - Single Ladies (Put a Ring on It)"
+    }, {
+        "answer": "Lady Gaga",
+        "category": "Who Did that Pop Song Quiz",
+        "question": "2008 - Poker Face"
+    }, {
+        "answer": "Rihanna",
+        "category": "Who Did that Pop Song Quiz",
+        "question": "2007 - Umbrella"
+    }, {
+        "answer": "Shakira",
+        "category": "Who Did that Pop Song Quiz",
+        "question": "2006 - Hips Don't Lie"
+    }, {
+        "answer": "Ke$ha",
+        "category": "Who Did that Pop Song Quiz",
+        "question": "2009 - TiK ToK"
+    }, {
+        "answer": "Justin Timberlake",
+        "category": "Who Did that Pop Song Quiz",
+        "question": "2006 - SexyBack"
+    }, {
+        "answer": "Kanye West",
+        "category": "Who Did that Pop Song Quiz",
+        "question": "2005 - Gold Digger"
+    }, {
+        "answer": "Gwen Stefani",
+        "category": "Who Did that Pop Song Quiz",
+        "question": "2005 - Hollaback Girl"
+    }, {
+        "answer": "The Black Eyed Peas",
+        "category": "Who Did that Pop Song Quiz",
+        "question": "2005 - My Humps"
+    }, {
+        "answer": "Ricky Martin",
+        "category": "Who Did that Pop Song Quiz",
+        "question": "1999 - Livin' la Vida Loca"
+    }, {
+        "answer": "R. Kelly",
+        "category": "Who Did that Pop Song Quiz",
+        "question": "1996 - I Believe I Can Fly"
+    }, {
+        "answer": "Kelly Clarkson",
+        "category": "Who Did that Pop Song Quiz",
+        "question": "2004 - Since U Been Gone"
+    }, {
+        "answer": "Outkast",
+        "category": "Who Did that Pop Song Quiz",
+        "question": "2003 - Hey Ya!"
+    }, {
+        "answer": "Christina Aguilera",
+        "category": "Who Did that Pop Song Quiz",
+        "question": "1999 - Genie in a Bottle"
+    }, {
+        "answer": "Will Smith",
+        "category": "Who Did that Pop Song Quiz",
+        "question": "1998 - Gettin' Jiggy wit It"
+    }, {
+        "answer": "Hanson",
+        "category": "Who Did that Pop Song Quiz",
+        "question": "1997 - MMMBop"
+    }, {
+        "answer": "Celine Dion",
+        "category": "Who Did that Pop Song Quiz",
+        "question": "1997 - My Heart Will Go On"
+    }, {
+        "answer": "The B-52's",
+        "category": "Who Did that Pop Song Quiz",
+        "question": "1989 - Love Shack"
+    }, {
+        "answer": "Pitbull",
+        "category": "Who Did that Pop Song Quiz",
+        "question": "2013 - Timber"
+    }, {
+        "answer": "50 Cent",
+        "category": "Who Did that Pop Song Quiz",
+        "question": "2003 - In da Club"
+    }, {
+        "answer": "Nelly",
+        "category": "Who Did that Pop Song Quiz",
+        "question": "2002 - Hot in Herre"
+    }, {
+        "answer": "Sisqo",
+        "category": "Who Did that Pop Song Quiz",
+        "question": "2000 - Thong Song"
+    }, {
+        "answer": "TLC",
+        "category": "Who Did that Pop Song Quiz",
+        "question": "1999 - No Scrubs"
+    }, {
+        "answer": "Ace of Base",
+        "category": "Who Did that Pop Song Quiz",
+        "question": "1994 - The Sign"
+    }],
+    "quizLength": 30,
+    "title": "Who Did that Pop Song Quiz",
+    "url": "http://www.jetpunk.com/quizzes/who-did-that-pop-song-quiz.php"
+}

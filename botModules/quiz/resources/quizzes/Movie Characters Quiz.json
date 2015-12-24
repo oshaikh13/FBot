@@ -1,0 +1,109 @@
+{
+    "categories": [],
+    "description": " Name the movies that featured these famous characters. ",
+    "difficulty": -1,
+    "questions": [{
+        "answer": "Pirates of the Caribbean",
+        "category": "Movie Characters Quiz",
+        "question": "Capt. Jack Sparrow"
+    }, {
+        "answer": "The Lord of the Rings",
+        "category": "Movie Characters Quiz",
+        "question": "Gollum"
+    }, {
+        "answer": "101 Dalmatians",
+        "category": "Movie Characters Quiz",
+        "question": "Cruella de Vil"
+    }, {
+        "answer": "Back to the Future",
+        "category": "Movie Characters Quiz",
+        "question": "Marty McFly"
+    }, {
+        "answer": "Forrest Gump",
+        "category": "Movie Characters Quiz",
+        "question": "Lieutenant Dan"
+    }, {
+        "answer": "A Nightmare on Elm Street",
+        "category": "Movie Characters Quiz",
+        "question": "Freddy Krueger"
+    }, {
+        "answer": "Star Trek",
+        "category": "Movie Characters Quiz",
+        "question": "James T. Kirk"
+    }, {
+        "answer": "Anchorman",
+        "category": "Movie Characters Quiz",
+        "question": "Ron Burgundy"
+    }, {
+        "answer": "The Matrix",
+        "category": "Movie Characters Quiz",
+        "question": "Morpheus"
+    }, {
+        "answer": "Rocky",
+        "category": "Movie Characters Quiz",
+        "question": "Apollo Creed"
+    }, {
+        "answer": "Fight Club",
+        "category": "Movie Characters Quiz",
+        "question": "Tyler Durden"
+    }, {
+        "answer": "Alien",
+        "category": "Movie Characters Quiz",
+        "question": "Ellen Ripley"
+    }, {
+        "answer": "One Flew Over the Cuckoo's Nest",
+        "category": "Movie Characters Quiz",
+        "question": "Nurse Ratched"
+    }, {
+        "answer": "Die Hard",
+        "category": "Movie Characters Quiz",
+        "question": "John McClane"
+    }, {
+        "answer": "The Usual Suspects",
+        "category": "Movie Characters Quiz",
+        "question": "Keyser Söze"
+    }, {
+        "answer": "The Nutty Professor",
+        "category": "Movie Characters Quiz",
+        "question": "Sherman Klump"
+    }, {
+        "answer": "American Psycho",
+        "category": "Movie Characters Quiz",
+        "question": "Patrick Bateman"
+    }, {
+        "answer": "Avatar",
+        "category": "Movie Characters Quiz",
+        "question": "Jake Sully"
+    }, {
+        "answer": "Boogie Nights",
+        "category": "Movie Characters Quiz",
+        "question": "Dirk Diggler"
+    }, {
+        "answer": "Silence of the Lambs",
+        "category": "Movie Characters Quiz",
+        "question": "Hannibal Lecter"
+    }, {
+        "answer": "The Big Lebowski",
+        "category": "Movie Characters Quiz",
+        "question": "The Dude"
+    }, {
+        "answer": "Star Wars",
+        "category": "Movie Characters Quiz",
+        "question": "Han Solo"
+    }, {
+        "answer": "The Godfather",
+        "category": "Movie Characters Quiz",
+        "question": "Don Vito Corleone"
+    }, {
+        "answer": "Scarface",
+        "category": "Movie Characters Quiz",
+        "question": "Tony Montana"
+    }, {
+        "answer": "Toy Story",
+        "category": "Movie Characters Quiz",
+        "question": "Buzz Lightyear"
+    }],
+    "quizLength": 24,
+    "title": "Movie Characters Quiz",
+    "url": "http://www.jetpunk.com/quizzes/movie-characters-quiz.php"
+}

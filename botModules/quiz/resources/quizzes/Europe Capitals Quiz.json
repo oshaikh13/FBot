@@ -1,0 +1,189 @@
+{
+    "categories": [],
+    "description": " Try to guess capital cities of all the countries in Europe. ",
+    "difficulty": -1,
+    "questions": [{
+        "answer": "Paris",
+        "category": "Europe Capitals Quiz",
+        "question": "France"
+    }, {
+        "answer": "Rome",
+        "category": "Europe Capitals Quiz",
+        "question": "Italy"
+    }, {
+        "answer": "Berlin",
+        "category": "Europe Capitals Quiz",
+        "question": "Germany"
+    }, {
+        "answer": "London",
+        "category": "Europe Capitals Quiz",
+        "question": "United Kingdom"
+    }, {
+        "answer": "Athens",
+        "category": "Europe Capitals Quiz",
+        "question": "Greece"
+    }, {
+        "answer": "Madrid",
+        "category": "Europe Capitals Quiz",
+        "question": "Spain"
+    }, {
+        "answer": "Dublin",
+        "category": "Europe Capitals Quiz",
+        "question": "Ireland"
+    }, {
+        "answer": "Moscow",
+        "category": "Europe Capitals Quiz",
+        "question": "Russia"
+    }, {
+        "answer": "Oslo",
+        "category": "Europe Capitals Quiz",
+        "question": "Norway"
+    }, {
+        "answer": "Vienna",
+        "category": "Europe Capitals Quiz",
+        "question": "Austria"
+    }, {
+        "answer": "Brussels",
+        "category": "Europe Capitals Quiz",
+        "question": "Belgium"
+    }, {
+        "answer": "Amsterdam",
+        "category": "Europe Capitals Quiz",
+        "question": "Netherlands"
+    }, {
+        "answer": "Vatican City",
+        "category": "Europe Capitals Quiz",
+        "question": "Vatican City"
+    }, {
+        "answer": "Copenhagen",
+        "category": "Europe Capitals Quiz",
+        "question": "Denmark"
+    }, {
+        "answer": "Lisbon",
+        "category": "Europe Capitals Quiz",
+        "question": "Portugal"
+    }, {
+        "answer": "Prague",
+        "category": "Europe Capitals Quiz",
+        "question": "Czech Republic"
+    }, {
+        "answer": "Budapest",
+        "category": "Europe Capitals Quiz",
+        "question": "Hungary"
+    }, {
+        "answer": "Warsaw",
+        "category": "Europe Capitals Quiz",
+        "question": "Poland"
+    }, {
+        "answer": "Helsinki",
+        "category": "Europe Capitals Quiz",
+        "question": "Finland"
+    }, {
+        "answer": "Luxembourg",
+        "category": "Europe Capitals Quiz",
+        "question": "Luxembourg"
+    }, {
+        "answer": "Stockholm",
+        "category": "Europe Capitals Quiz",
+        "question": "Sweden"
+    }, {
+        "answer": "Monaco",
+        "category": "Europe Capitals Quiz",
+        "question": "Monaco"
+    }, {
+        "answer": "Kiev",
+        "category": "Europe Capitals Quiz",
+        "question": "Ukraine"
+    }, {
+        "answer": "Bern",
+        "category": "Europe Capitals Quiz",
+        "question": "Switzerland"
+    }, {
+        "answer": "San Marino",
+        "category": "Europe Capitals Quiz",
+        "question": "San Marino"
+    }, {
+        "answer": "Reykjavík",
+        "category": "Europe Capitals Quiz",
+        "question": "Iceland"
+    }, {
+        "answer": "Sofia",
+        "category": "Europe Capitals Quiz",
+        "question": "Bulgaria"
+    }, {
+        "answer": "Bucharest",
+        "category": "Europe Capitals Quiz",
+        "question": "Romania"
+    }, {
+        "answer": "Minsk",
+        "category": "Europe Capitals Quiz",
+        "question": "Belarus"
+    }, {
+        "answer": "Zagreb",
+        "category": "Europe Capitals Quiz",
+        "question": "Croatia"
+    }, {
+        "answer": "Tallinn",
+        "category": "Europe Capitals Quiz",
+        "question": "Estonia"
+    }, {
+        "answer": "Riga",
+        "category": "Europe Capitals Quiz",
+        "question": "Latvia"
+    }, {
+        "answer": "Sarajevo",
+        "category": "Europe Capitals Quiz",
+        "question": "Bosnia and Herzegovina"
+    }, {
+        "answer": "Tirana",
+        "category": "Europe Capitals Quiz",
+        "question": "Albania"
+    }, {
+        "answer": "Belgrade",
+        "category": "Europe Capitals Quiz",
+        "question": "Serbia"
+    }, {
+        "answer": "Andorra la Vella",
+        "category": "Europe Capitals Quiz",
+        "question": "Andorra"
+    }, {
+        "answer": "Bratislava",
+        "category": "Europe Capitals Quiz",
+        "question": "Slovakia"
+    }, {
+        "answer": "Vilnius",
+        "category": "Europe Capitals Quiz",
+        "question": "Lithuania"
+    }, {
+        "answer": "Valletta",
+        "category": "Europe Capitals Quiz",
+        "question": "Malta"
+    }, {
+        "answer": "Skopje",
+        "category": "Europe Capitals Quiz",
+        "question": "Macedonia"
+    }, {
+        "answer": "Ljubljana",
+        "category": "Europe Capitals Quiz",
+        "question": "Slovenia"
+    }, {
+        "answer": "Vaduz",
+        "category": "Europe Capitals Quiz",
+        "question": "Liechtenstein"
+    }, {
+        "answer": "Pristina",
+        "category": "Europe Capitals Quiz",
+        "question": "Kosovo"
+    }, {
+        "answer": "Chișinău",
+        "category": "Europe Capitals Quiz",
+        "question": "Moldova"
+    }, {
+        "answer": "Podgorica",
+        "category": "Europe Capitals Quiz",
+        "question": "Montenegro"
+    }],
+    "quizLength": 45,
+    "title": "Europe Capitals Quiz",
+    "url": "http://www.jetpunk.com/quizzes/european-capitals-quiz.php"
+}

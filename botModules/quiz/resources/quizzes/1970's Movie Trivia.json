@@ -1,0 +1,105 @@
+{
+  "categories": [],
+  "description": " Answer these questions about the movies of the 1970's. ",
+  "difficulty": -1,
+  "questions": [{
+    "answer": "The Bee Gees",
+    "category": "1970's Movie Trivia",
+    "question": "What musical group recorded six of the songs on the \"Saturday Night Fever\" soundtrack?"
+  }, {
+    "answer": "Australia",
+    "category": "1970's Movie Trivia",
+    "question": "In what country did the movie \"Mad Max\" take place?"
+  }, {
+    "answer": "Sicily",
+    "category": "1970's Movie Trivia",
+    "question": "What island was the ancestral home of the Corleone family?"
+  }, {
+    "answer": "Oompa Loompas",
+    "category": "1970's Movie Trivia",
+    "question": "What orange-colored creatures worked in Willy Wonka's chocolate factory?"
+  }, {
+    "answer": "Grease",
+    "category": "1970's Movie Trivia",
+    "question": "What movie featured the song \"Beauty School Dropout\"?"
+  }, {
+    "answer": "James Earl Jones",
+    "category": "1970's Movie Trivia",
+    "question": "Who was the voice of Darth Vader?"
+  }, {
+    "answer": "Jodie Foster",
+    "category": "1970's Movie Trivia",
+    "question": "What 13-year old actress received a Best Supporting Actress nomination for her role in the movie \"Taxi Driver\"?"
+  }, {
+    "answer": "George S. Patton",
+    "category": "1970's Movie Trivia",
+    "question": "What American general was portrayed by George C. Scott?"
+  }, {
+    "answer": "Woody Allen",
+    "category": "1970's Movie Trivia",
+    "question": "Who directed \"Annie Hall\"?"
+  }, {
+    "answer": "Life of Brian",
+    "category": "1970's Movie Trivia",
+    "question": "What Monty Python movie was about a man who is mistaken for Jesus?"
+  }, {
+    "answer": "Bruce Lee",
+    "category": "1970's Movie Trivia",
+    "question": "Who died of mysterious causes in Hong Kong in 1973?"
+  }, {
+    "answer": "The Rocky Horror Picture Show",
+    "category": "1970's Movie Trivia",
+    "question": "What cult movie has inspired audiences to throw rice, toast, and hot dogs at the screen?"
+  }, {
+    "answer": "Apocalypse Now",
+    "category": "1970's Movie Trivia",
+    "question": "What movie was a Vietnam War version of the book \"Heart of Darkness\"?"
+  }, {
+    "answer": "Apollo Creed",
+    "category": "1970's Movie Trivia",
+    "question": "What heavyweight champion did Rocky fight against?"
+  }, {
+    "answer": "Bo Derek",
+    "category": "1970's Movie Trivia",
+    "question": "What sexy actress was a perfect \"10\"?"
+  }, {
+    "answer": "San Francisco",
+    "category": "1970's Movie Trivia",
+    "question": "In what city did \"Dirty Harry\" take place?"
+  }, {
+    "answer": "Maude",
+    "category": "1970's Movie Trivia",
+    "question": "Who was Harold's much much older girlfriend?"
+  }, {
+    "answer": "Moonraker",
+    "category": "1970's Movie Trivia",
+    "question": "What James Bond movie took place in outer space?"
+  }, {
+    "answer": "Michael Myers",
+    "category": "1970's Movie Trivia",
+    "question": "Who was the villain in the movie \"Halloween\"?"
+  }, {
+    "answer": "Beethoven's",
+    "category": "1970's Movie Trivia",
+    "question": "Whose music does the main character of \"A Clockwork Orange\" love to listen to?"
+  }, {
+    "answer": "Luke Skywalker",
+    "category": "1970's Movie Trivia",
+    "question": "who was planning to go to Tosche Station to pick up some power converters",
+  }, {
+    "answer": "Jaws",
+    "category": "1970's Movie Trivia",
+    "question": "The name of the shark that terrorized a New England Beach Town",
+  }, {
+    "answer": "Monty Python and the Holy Grail",
+    "category": "1970's Movie Trivia",
+    "question": "The knights who say \"Ni\"",
+  }, {
+    "answer": "Ellen Ripley",
+    "category": "1970's Movie Trivia",
+    "question": "What was the name of the sole survivor of Alien",
+  }],
+  "quizLength": 20,
+  "title": "1970's Movie Trivia",
+  "url": "http://www.jetpunk.com/quizzes/1970s-movie-trivia"
+}

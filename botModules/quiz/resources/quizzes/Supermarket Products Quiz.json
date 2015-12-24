@@ -1,0 +1,253 @@
+{
+    "categories": [],
+    "description": " Name the product that goes with these brands.",
+    "difficulty": -1,
+    "questions": [{
+        "answer": "Potato Chip",
+        "category": "Supermarket Products Quiz",
+        "question": "Lays"
+    }, {
+        "answer": "Chocolate",
+        "category": "Supermarket Products Quiz",
+        "question": "Ghirardelli"
+    }, {
+        "answer": "Ketchup",
+        "category": "Supermarket Products Quiz",
+        "question": "Heinz"
+    }, {
+        "answer": "Tea",
+        "category": "Supermarket Products Quiz",
+        "question": "Lipton"
+    }, {
+        "answer": "Cereal",
+        "category": "Supermarket Products Quiz",
+        "question": "Kellogg's"
+    }, {
+        "answer": "Battery",
+        "category": "Supermarket Products Quiz",
+        "question": "Duracell"
+    }, {
+        "answer": "Cracker",
+        "category": "Supermarket Products Quiz",
+        "question": "Ritz"
+    }, {
+        "answer": "Mouthwash",
+        "category": "Supermarket Products Quiz",
+        "question": "Listerine"
+    }, {
+        "answer": "Diaper",
+        "category": "Supermarket Products Quiz",
+        "question": "Pampers"
+    }, {
+        "answer": "Toothpaste",
+        "category": "Supermarket Products Quiz",
+        "question": "Crest"
+    }, {
+        "answer": "Orange Juice",
+        "category": "Supermarket Products Quiz",
+        "question": "Tropicana"
+    }, {
+        "answer": "Cookie",
+        "category": "Supermarket Products Quiz",
+        "question": "Chips Ahoy!"
+    }, {
+        "answer": "Soup",
+        "category": "Supermarket Products Quiz",
+        "question": "Campbell's"
+    }, {
+        "answer": "Laundry Detergent",
+        "category": "Supermarket Products Quiz",
+        "question": "Tide"
+    }, {
+        "answer": "Candy Bar",
+        "category": "Supermarket Products Quiz",
+        "question": "Snickers"
+    }, {
+        "answer": "Chewing Gum",
+        "category": "Supermarket Products Quiz",
+        "question": "Juicy Fruit"
+    }, {
+        "answer": "Peanuts",
+        "category": "Supermarket Products Quiz",
+        "question": "Planters"
+    }, {
+        "answer": "Toilet Paper",
+        "category": "Supermarket Products Quiz",
+        "question": "Charmin"
+    }, {
+        "answer": "Rice",
+        "category": "Supermarket Products Quiz",
+        "question": "Uncle Ben's"
+    }, {
+        "answer": "Yoghurt",
+        "category": "Supermarket Products Quiz",
+        "question": "Dannon"
+    }, {
+        "answer": "Banana",
+        "category": "Supermarket Products Quiz",
+        "question": "Chiquita"
+    }, {
+        "answer": "Bottled Water",
+        "category": "Supermarket Products Quiz",
+        "question": "Evian"
+    }, {
+        "answer": "Pasta Sauce",
+        "category": "Supermarket Products Quiz",
+        "question": "Ragu"
+    }, {
+        "answer": "Mayonnaise",
+        "category": "Supermarket Products Quiz",
+        "question": "Hellman's"
+    }, {
+        "answer": "Coffee",
+        "category": "Supermarket Products Quiz",
+        "question": "Folgers"
+    }, {
+        "answer": "Condom",
+        "category": "Supermarket Products Quiz",
+        "question": "Trojan"
+    }, {
+        "answer": "Paper Towel",
+        "category": "Supermarket Products Quiz",
+        "question": "Bounty"
+    }, {
+        "answer": "Waffle",
+        "category": "Supermarket Products Quiz",
+        "question": "Eggo"
+    }, {
+        "answer": "Deodorant",
+        "category": "Supermarket Products Quiz",
+        "question": "Old Spice"
+    }, {
+        "answer": "Bleach",
+        "category": "Supermarket Products Quiz",
+        "question": "Clorox"
+    }, {
+        "answer": "Popcorn",
+        "category": "Supermarket Products Quiz",
+        "question": "Orville Redenbacher's"
+    }, {
+        "answer": "Baby Food",
+        "category": "Supermarket Products Quiz",
+        "question": "Gerber"
+    }, {
+        "answer": "Ice Cream",
+        "category": "Supermarket Products Quiz",
+        "question": "Breyers"
+    }, {
+        "answer": "Whip Cream",
+        "category": "Supermarket Products Quiz",
+        "question": "Reddi-Whip"
+    }, {
+        "answer": "Ranch Dressing",
+        "category": "Supermarket Products Quiz",
+        "question": "Hidden Valley"
+    }, {
+        "answer": "Baking Soda",
+        "category": "Supermarket Products Quiz",
+        "question": "Arm & Hammer"
+    }, {
+        "answer": "Sunscreen",
+        "category": "Supermarket Products Quiz",
+        "question": "Coppertone"
+    }, {
+        "answer": "Tuna",
+        "category": "Supermarket Products Quiz",
+        "question": "Chicken of the Sea"
+    }, {
+        "answer": "Tortilla Chip",
+        "category": "Supermarket Products Quiz",
+        "question": "Doritos"
+    }, {
+        "answer": "Sausage",
+        "category": "Supermarket Products Quiz",
+        "question": "Jimmy Dean"
+    }, {
+        "answer": "Syrup",
+        "category": "Supermarket Products Quiz",
+        "question": "Mrs. Butterworth"
+    }, {
+        "answer": "Mustard",
+        "category": "Supermarket Products Quiz",
+        "question": "Grey Poupon"
+    }, {
+        "answer": "Steak Sauce",
+        "category": "Supermarket Products Quiz",
+        "question": "A1"
+    }, {
+        "answer": "Air Freshener",
+        "category": "Supermarket Products Quiz",
+        "question": "Glade"
+    }, {
+        "answer": "Soap",
+        "category": "Supermarket Products Quiz",
+        "question": "Lever 2000"
+    }, {
+        "answer": "Corn Chip",
+        "category": "Supermarket Products Quiz",
+        "question": "Fritos"
+    }, {
+        "answer": "Hot Dog",
+        "category": "Supermarket Products Quiz",
+        "question": "Ball Park"
+    }, {
+        "answer": "Peanut Butter",
+        "category": "Supermarket Products Quiz",
+        "question": "Peter Pan"
+    }, {
+        "answer": "Pickle",
+        "category": "Supermarket Products Quiz",
+        "question": "Vlasic"
+    }, {
+        "answer": "Aspirin",
+        "category": "Supermarket Products Quiz",
+        "question": "Bayer"
+    }, {
+        "answer": "Soy Sauce",
+        "category": "Supermarket Products Quiz",
+        "question": "Kikkoman"
+    }, {
+        "answer": "Marshmallow",
+        "category": "Supermarket Products Quiz",
+        "question": "Jet-Puffed"
+    }, {
+        "answer": "Hot Chocolate",
+        "category": "Supermarket Products Quiz",
+        "question": "Swiss Miss"
+    }, {
+        "answer": "Graham Cracker",
+        "category": "Supermarket Products Quiz",
+        "question": "Honey Maid"
+    }, {
+        "answer": "Shaving Cream",
+        "category": "Supermarket Products Quiz",
+        "question": "Barbasol"
+    }, {
+        "answer": "Pretzel",
+        "category": "Supermarket Products Quiz",
+        "question": "Rold Gold"
+    }, {
+        "answer": "Fabric Softener",
+        "category": "Supermarket Products Quiz",
+        "question": "Downey"
+    }, {
+        "answer": "Salt",
+        "category": "Supermarket Products Quiz",
+        "question": "Morton"
+    }, {
+        "answer": "Stain Remover",
+        "category": "Supermarket Products Quiz",
+        "question": "Shout"
+    }, {
+        "answer": "BBQ Sauce",
+        "category": "Supermarket Products Quiz",
+        "question": "KC Masterpiece"
+    }, {
+        "answer": "Ramen",
+        "category": "Supermarket Products Quiz",
+        "question": "Maruchan"
+    }],
+    "quizLength": 69,
+    "title": "Supermarket Products Quiz",
+    "url": "http://www.jetpunk.com/quizzes/supermarket-products-quiz.php"
+}

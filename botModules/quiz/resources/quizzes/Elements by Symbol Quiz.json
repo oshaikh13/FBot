@@ -1,0 +1,105 @@
+{
+  "categories": [],
+  "description": "Chemistry time! Based on the symbol, name the element.",
+  "difficulty": -1,
+  "questions": [{
+    "answer": "Hydrogen",
+    "category": "Elements by Symbol Quiz",
+    "question": "H"
+  }, {
+    "answer": "Nitrogen",
+    "category": "Elements by Symbol Quiz",
+    "question": "N"
+  }, {
+    "answer": "Oxygen",
+    "category": "Elements by Symbol Quiz",
+    "question": "O"
+  }, {
+    "answer": "Gold",
+    "category": "Elements by Symbol Quiz",
+    "question": "Au"
+  }, {
+    "answer": "Iron",
+    "category": "Elements by Symbol Quiz",
+    "question": "Fe"
+  }, {
+    "answer": "Potassium",
+    "category": "Elements by Symbol Quiz",
+    "question": "K"
+  }, {
+    "answer": "Helium",
+    "category": "Elements by Symbol Quiz",
+    "question": "He"
+  }, {
+    "answer": "Lithium",
+    "category": "Elements by Symbol Quiz",
+    "question": "Li"
+  }, {
+    "answer": "Sulfur",
+    "category": "Elements by Symbol Quiz",
+    "question": "S"
+  }, {
+    "answer": "Silver",
+    "category": "Elements by Symbol Quiz",
+    "question": "Ag"
+  }, {
+    "answer": "Carbon",
+    "category": "Elements by Symbol Quiz",
+    "question": "C"
+  }, {
+    "answer": "Copper",
+    "category": "Elements by Symbol Quiz",
+    "question": "Cu"
+  }, {
+    "answer": "Calcium",
+    "category": "Elements by Symbol Quiz",
+    "question": "Ca"
+  }, {
+    "answer": "Sodium",
+    "category": "Elements by Symbol Quiz",
+    "question": "Na"
+  }, {
+    "answer": "Uranium",
+    "category": "Elements by Symbol Quiz",
+    "question": "U"
+  }, {
+    "answer": "Lead",
+    "category": "Elements by Symbol Quiz",
+    "question": "Pb"
+  }, {
+    "answer": "Neon",
+    "category": "Elements by Symbol Quiz",
+    "question": "Ne"
+  }, {
+    "answer": "Iodine",
+    "category": "Elements by Symbol Quiz",
+    "question": "I"
+  }, {
+    "answer": "Silicon",
+    "category": "Elements by Symbol Quiz",
+    "question": "Si"
+  }, {
+    "answer": "Mercury",
+    "category": "Elements by Symbol Quiz",
+    "question": "Hg"
+  }, {
+    "answer": "Arsenic",
+    "category": "Elements by Symbol Quiz",
+    "question": "As"
+  }, {
+    "answer": "Tin",
+    "category": "Elements by Symbol Quiz",
+    "question": "Sn"
+  }, {
+    "answer": "Vanadium",
+    "category": "Elements by Symbol Quiz",
+    "question": "V"
+  }, {
+    "answer": "Antimony",
+    "category": "Elements by Symbol Quiz",
+    "question": "Sb"
+  }],
+  "quizLength": 24,
+  "title": "Elements by Symbol Quiz",
+  "url": "http://www.jetpunk.com/quizzes/elements-by-symbol-quiz.php"
+}
