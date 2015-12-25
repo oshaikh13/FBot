@@ -2,6 +2,7 @@ require('dotenv').config({path: '../.env'});;
 var Quiz = require('../botModules/quiz/quiz.js')
 var login = require("facebook-chat-api");
 
+
 var isAnswer = function(answer) {
   return answer.toLowerCase().indexOf("answer is") > -1;
 }
