@@ -1,10 +1,46 @@
-module.exports = function (name) {
+var shuffle = function(array) {
+  var currentIndex = array.length, temporaryValue, randomIndex;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+
+  return array;
+}
+
+var isAnswer = function(answer) {
+  return answer.toLowerCase().indexOf("answer is") > -1;
+}
+
+var getPossibleAnswers = function(answer) {
+  answer = answer.toLowerCase();
+  answer = answer.substring(answer.indexOf(" is ") + " is ".length);
+
+  var possible = [];
+
+  possible.push(answer);
+  return possible;
+}
+
+
+var Quiz = function (name) {
   // body...
   var quizzer = {};
   quizzer.data = require("./resources/quizzes/" + name + '.json');
   quizzer.complete = false;
   quizzer.current = 0;
   quizzer.points = {};
+
+  quizzer.data.questions = shuffle(quizzer.data.questions);
 
   var correct = function(resp, correct) {
     console.log(resp.toLowerCase().trim() + " WHAT HE SAID");
@@ -58,5 +94,49 @@ module.exports = function (name) {
     return quizzer.data.description;
   }
 
+  quizzer.listen = function() {
+
+  }
+
   return quizzer;
 }
+
+module.exports = function(api) {
+  return {  
+    api: api,
+    currentQuiz: undefined,
+    triggerString: "startQuiz",
+    listen: function(message){
+      var that = this;
+      if (message.body.indexOf("startQuiz") > -1) {
+        
+        that.currentQuiz = Quiz(message.body.substring(message.body.indexOf(that.triggerString) 
+          + that.triggerString.length + 1));
+
+        api.sendMessage("Starting a quiz! Your answer should look something like this."
+          + " The answer is whatever.", message.threadID, function(){
+            api.sendMessage(that.currentQuiz.prompt(), message.threadID, function(){
+              api.sendMessage(that.currentQuiz.ask(), message.threadID);
+            });
+          });
+
+      }
+
+
+      if (isAnswer(message.body) && that.currentQuiz) {
+        var answers = getPossibleAnswers(message.body);
+        var response = that.currentQuiz.checkAnswers(answers);
+        if (response) {
+          api.sendMessage(answers[0] + " is correct, " + message.senderName 
+            + "! Moving on. " + response, message.threadID);
+        } else {
+          api.sendMessage(answers[0] + " is wrong.. Try again, " 
+            + message.senderName + ". " , message.threadID);
+        }
+
+      }
+
+    }
+  }
+}
+
