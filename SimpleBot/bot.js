@@ -3,7 +3,6 @@ var login = require("facebook-chat-api");
 
 // Must be manually loaded!
 
-// Create simple echo bot 
 login({email: process.env.FB_EMAIL, password: process.env.FB_PASSWORD}, function callback (err, api) {
     if(err) return console.error(err);
 
@@ -45,7 +44,7 @@ login({email: process.env.FB_EMAIL, password: process.env.FB_PASSWORD}, function
       if (message.senderName.toLowerCase().indexOf("yaser") > -1) {
         var factor = Math.random();
         console.log(factor);
-        if (factor <= .33) {
+        if (factor <= .20) {
           api.sendMessage("Silence. Yaser has spoken. ", message.threadID);
         }
       }

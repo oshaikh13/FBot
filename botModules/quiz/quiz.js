@@ -1,3 +1,5 @@
+var fs = require('fs');
+
 var shuffle = function(array) {
   var currentIndex = array.length, temporaryValue, randomIndex;
 
@@ -35,7 +37,13 @@ var getPossibleAnswers = function(answer) {
 var Quiz = function (name) {
   // body...
   var quizzer = {};
-  quizzer.data = require("./resources/quizzes/" + name + '.json');
+
+  try {
+    quizzer.data = require("./resources/quizzes/" + name + '.json');
+  } catch (e) {
+    return null;
+  }
+
   quizzer.complete = false;
   quizzer.current = 0;
   quizzer.points = {};
@@ -108,25 +116,44 @@ module.exports = function(api) {
     triggerString: "startQuiz",
     listen: function(message){
       var that = this;
-      if (message.body.indexOf("startQuiz") > -1) {
+      if (message.body.indexOf("startQuiz") > -1 && !that.currentQuiz) {
         
         that.currentQuiz = Quiz(message.body.substring(message.body.indexOf(that.triggerString) 
           + that.triggerString.length + 1));
 
-        api.sendMessage("Starting a quiz! Your answer should look something like this."
-          + " The answer is whatever.", message.threadID, function(){
-            api.sendMessage(that.currentQuiz.prompt(), message.threadID, function(){
-              api.sendMessage(that.currentQuiz.ask(), message.threadID);
-            });
+        if (!that.currentQuiz) {
+
+          var response = "Quiz not found! Possible Quizzes: \n";
+
+          // TODO: Cache, and set as cronjob.
+          fs.readdir('./resources/quizzes', function (err, files) {
+            for (var i = 0; i < files.length; i++) {
+              response += (files[i].substring(0, files[i].indexOf(".json")) + "\n");
+            }
+            api.sendMessage(response, message.threadID);
           });
 
+
+
+        } else { 
+          api.sendMessage("Starting a quiz! Your answer should look something like this."
+            + " The answer is whatever.", message.threadID, function(){
+              api.sendMessage(that.currentQuiz.prompt(), message.threadID, function(){
+                api.sendMessage(that.currentQuiz.ask(), message.threadID);
+              });
+            });
+        }
       }
 
 
       if (isAnswer(message.body) && that.currentQuiz) {
         var answers = getPossibleAnswers(message.body);
         var response = that.currentQuiz.checkAnswers(answers);
-        if (response) {
+        if (response == "All done!") {
+          api.sendMessage(response + " Start another quiz.", message.threadID);
+          that.currentQuiz = undefined;
+
+        } else if (response) {
           api.sendMessage(answers[0] + " is correct, " + message.senderName 
             + "! Moving on. " + response, message.threadID);
         } else {
