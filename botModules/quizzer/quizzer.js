@@ -1,4 +1,5 @@
 var fs = require('fs');
+var levenshtein = require('damerau-levenshtein')
 
 var shuffle = function(array) {
   var currentIndex = array.length, temporaryValue, randomIndex;
@@ -47,14 +48,26 @@ var Quiz = function (name) {
   quizzer.complete = false;
   quizzer.current = 0;
   quizzer.points = {};
+  quizzer.rules = quizzer.data.rules || {factor: .7, caseMatters: false};
 
   quizzer.data.questions = shuffle(quizzer.data.questions);
 
   var correct = function(resp, correct) {
+
     console.log(resp.toLowerCase().trim() + " WHAT HE SAID");
     console.log(correct.toLowerCase().trim() + " CORRECT")
-    console.log(resp.toLowerCase().trim() === correct.toLowerCase().trim() + " RESULT");
-    return resp.toLowerCase().trim() == correct.toLowerCase().trim();
+
+    if (!quizzer.rules.caseMatters){
+      resp = resp.toLowerCase().trim();
+      correct = correct.toLowerCase().trim();
+    }
+
+    var stats = levenshtein(resp, correct);
+
+    console.log(stats);
+    console.log(stats.similarity >= quizzer.rules.factor);
+
+    return stats.similarity >= quizzer.rules.factor; // 20% of the letters can be 'wrong'
   }
 
 
@@ -102,10 +115,6 @@ var Quiz = function (name) {
     return quizzer.data.description;
   }
 
-  quizzer.listen = function() {
-
-  }
-
   return quizzer;
 }
 
@@ -113,27 +122,40 @@ module.exports = function(api) {
   return {  
     api: api,
     currentQuiz: undefined,
-    triggerString: "startQuiz",
+    triggerString: "quizzer",
     listen: function(message){
       var that = this;
-      if (message.body.indexOf("startQuiz") > -1 && !that.currentQuiz) {
+      if (message.body.indexOf(that.triggerString) > -1 && !that.currentQuiz) {
         
-        that.currentQuiz = Quiz(message.body.substring(message.body.indexOf(that.triggerString) 
-          + that.triggerString.length + 1));
+        var qry = message.body.substring(message.body.indexOf(that.triggerString) 
+          + that.triggerString.length + 1);
 
-        if (!that.currentQuiz) {
+        that.currentQuiz = Quiz(qry);
 
-          var response = "Quiz not found! Possible Quizzes: \n";
 
-          // TODO: Cache, and set as cronjob.
-          fs.readdir('./resources/quizzes', function (err, files) {
-            for (var i = 0; i < files.length; i++) {
-              response += (files[i].substring(0, files[i].indexOf(".json")) + "\n");
+        // THIS IS A FLAG
+        // Look at the return statement. Termination after this is run.
+        if (qry === '--listall') {
+          fs.readdir(__dirname + '/resources/quizzes/', function (err, files) {
+            if (!err) {  
+              var response = "Possible Quizzes: \n"; 
+              for (var i = 0; i < files.length; i++) {
+                response += (files[i].substring(0, files[i].indexOf(".json")) + "\n");
+              }
+              api.sendMessage(response, message.threadID);
+            } else {
+              console.log(err);
             }
-            api.sendMessage(response, message.threadID);
           });
 
 
+          return;
+        }
+
+        if (!that.currentQuiz) {
+
+          var response = "Quiz not found! Write 'quizzer --listall' to see all quizzes \n";
+          api.sendMessage(response, message.threadID);
 
         } else { 
           api.sendMessage("Starting a quiz! Your answer should look something like this."
