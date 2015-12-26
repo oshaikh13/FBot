@@ -9,7 +9,7 @@ login({email: process.env.FB_EMAIL, password: process.env.FB_PASSWORD}, function
     var loader = require("../botModules/loader/loader.js")(api);
     loader.init(
       [
-        {name: 'quiz', args: {}}, 
+        {name: 'quizzer', args: {}}, 
         {name: 'define', args: {WORDNIK_API_KEY: process.env.WORDNIK_API_KEY}}
       ]
     );
