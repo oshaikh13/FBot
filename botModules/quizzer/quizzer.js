@@ -25,7 +25,6 @@ var isAnswer = function(answer) {
 }
 
 var getPossibleAnswers = function(answer) {
-  answer = answer.toLowerCase();
   answer = answer.substring(answer.indexOf(" is ") + " is ".length);
 
   var possible = [];
@@ -54,13 +53,17 @@ var Quiz = function (name) {
 
   var correct = function(resp, correct) {
 
-    console.log(resp.toLowerCase().trim() + " WHAT HE SAID");
-    console.log(correct.toLowerCase().trim() + " CORRECT")
 
+    resp = resp.trim();
+    correct = correct.trim();
+    
     if (!quizzer.rules.caseMatters){
-      resp = resp.toLowerCase().trim();
-      correct = correct.toLowerCase().trim();
+      resp = resp.toLowerCase();
+      correct = correct.toLowerCase();
     }
+
+    console.log(resp + " WHAT HE SAID");
+    console.log(correct + " CORRECT");
 
     var stats = levenshtein(resp, correct);
 
@@ -167,10 +170,18 @@ module.exports = function(api) {
         }
       }
 
+      var answerFormat = isAnswer(message.body);
+      if (that.currentQuiz) {
 
-      if (isAnswer(message.body) && that.currentQuiz) {
-        var answers = getPossibleAnswers(message.body);
+        var answers;
+        if (answerFormat) {
+          answers = getPossibleAnswers(message.body);
+        } else {
+          answers = [message.body];
+        }
+
         var response = that.currentQuiz.checkAnswers(answers);
+
         if (response == "All done!") {
           api.sendMessage(response + " Start another quiz.", message.threadID);
           that.currentQuiz = undefined;
@@ -179,8 +190,10 @@ module.exports = function(api) {
           api.sendMessage(answers[0] + " is correct, " + message.senderName 
             + "! Moving on. " + response, message.threadID);
         } else {
-          api.sendMessage(answers[0] + " is wrong.. Try again, " 
-            + message.senderName + ". " , message.threadID);
+          if (answerFormat) {
+            api.sendMessage(answers[0] + " is wrong.. Try again, " 
+              + message.senderName + ". " , message.threadID);
+          }
         }
 
       }
