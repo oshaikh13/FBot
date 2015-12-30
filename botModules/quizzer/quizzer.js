@@ -122,12 +122,24 @@ var Quiz = function (name) {
   return quizzer;
 }
 
-module.exports = function(api) {
+module.exports = function(api, args) {
   return {  
     api: api,
     currentQuiz: undefined,
     triggerString: "quizzer",
     listen: function(message){
+
+      var isAdmin = function(name) {
+        var isAdminBool = false;
+        args.admins.forEach(function(admin){
+          if (name.toLowerCase().indexOf(admin.toLowerCase()) > -1) {
+            isAdminBool = true;
+          }
+        });
+
+        return isAdminBool;
+      }
+
       var that = this;
       var qry = message.body.substring(message.body.indexOf(that.triggerString) 
         + that.triggerString.length + 1);
@@ -148,6 +160,13 @@ module.exports = function(api) {
         });
 
 
+        return;
+      }
+
+
+      if (qry === "--pass" && isAdmin(message.senderName) && that.currentQuiz) {
+        response = that.currentQuiz.next();
+        api.sendMessage("Admin Pass! Moving on. " + response, message.threadID);
         return;
       }
 

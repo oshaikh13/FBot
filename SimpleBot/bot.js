@@ -9,7 +9,7 @@ login({email: process.env.FB_EMAIL, password: process.env.FB_PASSWORD}, function
     var loader = require("../botModules/loader/loader.js")(api);
     loader.init(
       [
-        {name: 'quizzer', args: {}}, 
+        {name: 'quizzer', args: {admins: ["omar"]}}, 
         {name: 'define', args: {WORDNIK_API_KEY: process.env.WORDNIK_API_KEY}},
         {name: 'yomomma'}
       ]
@@ -21,7 +21,13 @@ login({email: process.env.FB_EMAIL, password: process.env.FB_PASSWORD}, function
 
       // Just trolls. Make a troll module
       if (message.body.toLowerCase().indexOf("musab") > -1) {
-        api.sendMessage("Speaking of Musab, I think he's an idiot.", message.threadID);
+        var factor = Math.random();
+
+        if (factor < .1){
+          api.sendMessage("Speaking of Musab, I think he's an idiot.", message.threadID);
+        } else {
+          api.sendMessage("MOOOOOSAB", message.threadID);
+        }         
       } 
 
       if (message.body.toLowerCase().indexOf("history") > -1) {
