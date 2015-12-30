@@ -47,6 +47,7 @@ var Quiz = function (name) {
   quizzer.complete = false;
   quizzer.current = 0;
   quizzer.points = {};
+  quizzer.length = quizzer.data.questions.length;
   quizzer.rules = quizzer.data.rules || {factor: .7, caseMatters: false};
 
   quizzer.data.questions = shuffle(quizzer.data.questions);
@@ -105,7 +106,7 @@ var Quiz = function (name) {
   quizzer.next = function() {
     this.current++;
 
-    if (this.current > quizzer.data.questions[this.current].quizLength) {
+    if (this.current > quizzer.length) {
       this.complete = true;
       return "All done!";
     } else {
@@ -128,32 +129,42 @@ module.exports = function(api) {
     triggerString: "quizzer",
     listen: function(message){
       var that = this;
+      var qry = message.body.substring(message.body.indexOf(that.triggerString) 
+        + that.triggerString.length + 1);
+
+      // THIS IS A FLAG
+      // Look at the return statement. Termination after this is run.
+      if (qry === '--listall') {
+        fs.readdir(__dirname + '/resources/quizzes/', function (err, files) {
+          if (!err) {  
+            var response = "Possible Quizzes: \n"; 
+            for (var i = 0; i < files.length; i++) {
+              response += (files[i].substring(0, files[i].indexOf(".json")) + "\n");
+            }
+            api.sendMessage(response, message.threadID);
+          } else {
+            console.log(err);
+          }
+        });
+
+
+        return;
+      }
+
+      if (qry === '--terminate') {
+        that.currentQuiz = null;
+        api.sendMessage("Quiz Terminated. Pick another :)", message.threadID);
+
+        return;
+      }
+      // End of flags.
+
       if (message.body.indexOf(that.triggerString) > -1 && !that.currentQuiz) {
         
-        var qry = message.body.substring(message.body.indexOf(that.triggerString) 
-          + that.triggerString.length + 1);
 
         that.currentQuiz = Quiz(qry);
 
 
-        // THIS IS A FLAG
-        // Look at the return statement. Termination after this is run.
-        if (qry === '--listall') {
-          fs.readdir(__dirname + '/resources/quizzes/', function (err, files) {
-            if (!err) {  
-              var response = "Possible Quizzes: \n"; 
-              for (var i = 0; i < files.length; i++) {
-                response += (files[i].substring(0, files[i].indexOf(".json")) + "\n");
-              }
-              api.sendMessage(response, message.threadID);
-            } else {
-              console.log(err);
-            }
-          });
-
-
-          return;
-        }
 
         if (!that.currentQuiz) {
 

@@ -3,21 +3,18 @@ module.exports = function (api) {
   return {
 
     rooms: {},
-    modules: {},
+    moduleList: undefined,
     api: api,
 
     init: function (moduleArrayList) {
-      moduleArrayList.forEach(function(module){
-        this.modules[module.name] = {};
-        this.modules[module.name].create = require('../' + module.name + '/' + module.name + '.js');
-        this.modules[module.name].args = module.args;
-      }.bind(this));
+      this.moduleList = moduleArrayList;
     },
 
     loadModules: function(threadID) {
-      for (var key in this.modules) {
-        this.rooms[threadID].modules[key] = this.modules[key].create(api, this.modules[key].args);
-      }
+      this.moduleList.forEach(function(module){
+        this.rooms[threadID].modules[module.name] = 
+          require('../' + module.name + '/' + module.name + '.js')(this.api, module.args);
+      }.bind(this));
     },
 
     newMessage: function(err, message) {

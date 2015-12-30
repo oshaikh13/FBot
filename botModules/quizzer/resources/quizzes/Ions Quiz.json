@@ -46,13 +46,11 @@
     {"question":"Phosphide","answer":"P-3"},
     {"question":"Nitride","answer":"N-3"},
     {"question":"Carbide","answer":"C-4"},
-    {"question":"Peroxide","answer":"O-2"},
+    {"question":"Peroxide","answer":"O2-2"},
     {"question":"Hydride","answer":"H-1"},
     {"question":"Selenide","answer":"Se-2"},
     {"question":"Telluride","answer":"Te-2"}
   ],
-
-  "quizLength": 24,
   "title": "Ions Quiz",
   "url": ""
 }

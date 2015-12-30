@@ -10,7 +10,8 @@ login({email: process.env.FB_EMAIL, password: process.env.FB_PASSWORD}, function
     loader.init(
       [
         {name: 'quizzer', args: {}}, 
-        {name: 'define', args: {WORDNIK_API_KEY: process.env.WORDNIK_API_KEY}}
+        {name: 'define', args: {WORDNIK_API_KEY: process.env.WORDNIK_API_KEY}},
+        {name: 'yomomma'}
       ]
     );
  
