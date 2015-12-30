@@ -50,6 +50,9 @@ login({email: process.env.FB_EMAIL, password: process.env.FB_PASSWORD}, function
         }
       }
 
+      if (message.body.toLowerCase().indexOf("rafay") > -1) {
+        api.sendMessage("you mean the assasin??", message.threadID);
+      }
 
     });
 
