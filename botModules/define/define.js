@@ -47,14 +47,12 @@ module.exports = function (api, args) {
 
                 if (body.length < 1) {
                   error = true;
-                  errorSend();
                   break;
 
                 }
 
                 if (!body[i] || !body[i].text) {
                   error = true;
-                  errorSend();
                   break;
                 }
 
