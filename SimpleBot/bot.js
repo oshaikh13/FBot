@@ -11,7 +11,8 @@ login({email: process.env.FB_EMAIL, password: process.env.FB_PASSWORD}, function
       [
         {name: 'quizzer', args: {admins: ["omar"]}}, 
         {name: 'define', args: {WORDNIK_API_KEY: process.env.WORDNIK_API_KEY}},
-        {name: 'yomomma'}
+        {name: 'yomomma'},
+        {name: 'speak'}
       ]
     );
  
@@ -22,8 +23,8 @@ login({email: process.env.FB_EMAIL, password: process.env.FB_PASSWORD}, function
       // Just trolls. Make a troll module
       if (message.body.toLowerCase().indexOf("musab") > -1) {
         var factor = Math.random();
-
-        if (factor < .1){
+        var musabCase = factor < .1;
+        if (true){
           api.sendMessage("Speaking of Musab, I think he's an idiot.", message.threadID);
         } else {
           api.sendMessage("MOOOOOSAB", message.threadID);
@@ -58,6 +59,10 @@ login({email: process.env.FB_EMAIL, password: process.env.FB_PASSWORD}, function
 
       if (message.body.toLowerCase().indexOf("rafay") > -1) {
         api.sendMessage("you mean the assasin??", message.threadID);
+      }
+
+      if (message.body.toLowerCase().indexOf("fuzail") > -1) {
+        api.sendMessage("^^fucking nerd", message.threadID);
       }
 
     });
