@@ -2,9 +2,9 @@
   "name": "FBot",
   "version": "0.0.0",
   "description": "A messenger chatbot. For Facebook",
-  "main": "server/server.js",
+  "main": "SimplebBot/bot.js",
   "scripts": {
-    "start": "nodemon server/server.js"
+    "start": "node SimplebBot/bot.js"
   },
   "author": "",
   "license": "ISC",
