@@ -1,3 +1,8 @@
+// Satsify heroku port binding.
+var express = require('express');
+var app = express();
+
+app.listen(process.env.PORT || 8000);
 
 // require('dotenv').config({path: '../.env'});;
 
