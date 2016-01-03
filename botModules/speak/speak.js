@@ -1,6 +1,6 @@
 var request = require('request');
-var fs = require('fs');
-var tracker = 0;
+
+
 
 module.exports = function (api, args) {
   return {

@@ -9,7 +9,7 @@ module.exports = function (api, args) {
         api.sendMessage("Unable to define " + word, message.threadID);
       }
 
-      if (message.body.indexOf(this.triggerString) > -1){
+      if (message.body.toLowerCase().indexOf(this.triggerString) > -1){
 
 
         var word = message.body.substring(message.body.indexOf(this.triggerString) 
@@ -37,7 +37,14 @@ module.exports = function (api, args) {
 
               var answer = "";
 
-              body = JSON.parse(body);
+              try {
+
+                body = JSON.parse(body);
+
+              } catch (e) {
+                errorSend();
+                return;
+              }
 
               if (all) {
                 limit = body.length;
