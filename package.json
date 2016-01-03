@@ -4,7 +4,7 @@
   "description": "A messenger chatbot. For Facebook",
   "main": "SimplebBot/bot.js",
   "scripts": {
-    "start": "node SimplebBot/bot.js"
+    "start": "node SimpleBot/bot.js"
   },
   "author": "",
   "license": "ISC",
