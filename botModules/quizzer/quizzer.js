@@ -146,7 +146,7 @@ module.exports = function(api, args) {
 
       // THIS IS A FLAG
       // Look at the return statement. Termination after this is run.
-      if (qry === '--listall') {
+      if (qry === '--all') {
         fs.readdir(__dirname + '/resources/quizzes/', function (err, files) {
           if (!err) {  
             var response = "Possible Quizzes: \n"; 
