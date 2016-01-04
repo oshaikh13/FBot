@@ -13,7 +13,7 @@ module.exports = function (api, args) {
 
 
         var word = message.body.substring(message.body.indexOf(this.triggerString) 
-          + this.triggerString.length);
+          + this.triggerString.length).trim();
 
         var qry = word.split(" ");
         var all = qry[qry.length - 1] === "--all";
