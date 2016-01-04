@@ -4,6 +4,13 @@ var app = express();
 
 app.listen(process.env.PORT || 8000);
 
+// Allow pinging to wake the server.
+app.get('/', function (req, res) {
+  res.send("I'm awake, dammit.");
+});
+
+// Enable this on dev. 
+// Start nodemon server from simplebot folder to find env.
 // require('dotenv').config({path: '../.env'});;
 
 var login = require("facebook-chat-api");
