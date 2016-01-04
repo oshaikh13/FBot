@@ -91,6 +91,10 @@ module.exports = function (api, args) {
           api.sendMessage("u talkin bout my dad m8", message.threadID);
         }
 
+        if (message.body.toLowerCase().indexOf("sultan") > -1) {
+          api.sendMessage("arsenal sux m8", message.threadID);
+        }
+
         if (message.body.toLowerCase().indexOf(process.env.BOT_NAME) > -1) {
           api.sendMessage("im here bae", message.threadID);
         }
