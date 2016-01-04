@@ -11,7 +11,7 @@ app.get('/', function (req, res) {
 
 // Enable this on dev. 
 // Start nodemon server from simplebot folder to find env.
-// require('dotenv').config({path: '../.env'});
+require('dotenv').config({path: '../.env'});
 
 var login = require("facebook-chat-api");
 
@@ -28,7 +28,8 @@ login({email: process.env.FB_EMAIL, password: process.env.FB_PASSWORD}, function
         {name: 'define', args: {WORDNIK_API_KEY: process.env.WORDNIK_API_KEY}},
         {name: 'yomomma'},
         {name: 'speak'},
-        {name: 'troller', args: {admins: ["omar"]}}
+        {name: 'troller', args: {admins: ["omar"]}},
+        {name: 'translate'}
       ]
     );
  

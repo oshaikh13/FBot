@@ -27,7 +27,7 @@ module.exports = function (api, args) {
 
         request.get(
           { 
-            url: 'http://api.wordnik.com:80/v4/word.json/' + word + '/definitions?limit=200&api_key=' + args.WORDNIK_API_KEY
+            url: 'http://api.wordnik.com:80/v4/word.json/' + encodeURIComponent(word) + '/definitions?limit=200&api_key=' + args.WORDNIK_API_KEY
           }, function(err, complete, body){
             // TODO: Clean this module up. 
             // Handle parts of speech.
