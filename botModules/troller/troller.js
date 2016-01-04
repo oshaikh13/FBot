@@ -84,7 +84,7 @@ module.exports = function (api, args) {
         }
 
         if (message.body.toLowerCase().indexOf("fuzail") > -1) {
-          api.sendMessage("^^fucking nerd", message.threadID);
+          api.sendMessage("^^fuzails a nerd m8", message.threadID);
         }
 
         if (message.body.toLowerCase().indexOf("omar") > -1) {

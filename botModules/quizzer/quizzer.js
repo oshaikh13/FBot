@@ -170,6 +170,11 @@ module.exports = function(api, args) {
         return;
       }
 
+      if (qry === "--repeat" && that.currentQuiz) {
+        api.sendMessage("Repeat. " + that.currentQuiz.ask(), message.threadID);
+        return;
+      }
+
       if (qry === '--terminate') {
         that.currentQuiz = null;
         api.sendMessage("Quiz Terminated. Pick another :)", message.threadID);
