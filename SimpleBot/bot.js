@@ -15,7 +15,6 @@ app.get('/', function (req, res) {
 
 var login = require("facebook-chat-api");
 
-
 login({email: process.env.FB_EMAIL, password: process.env.FB_PASSWORD}, function callback (err, api) {
     if(err) return console.error(err);
 
@@ -29,7 +28,8 @@ login({email: process.env.FB_EMAIL, password: process.env.FB_PASSWORD}, function
         {name: 'yomomma'},
         {name: 'speak'},
         {name: 'troller', args: {admins: ["omar"]}},
-        {name: 'translate'}
+        {name: 'translate'},
+        {name: 'cleverbot'}
       ]
     );
  
