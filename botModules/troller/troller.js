@@ -79,6 +79,12 @@ module.exports = function (api, args) {
           }
         }
 
+        if (message.body.toLowerCase().indexOf("imad") > -1) {
+
+          api.sendMessage("umad bro?", message.threadID);
+          
+        }
+
         if (message.body.toLowerCase().indexOf("rafay") > -1) {
           api.sendMessage("you mean the assasin??", message.threadID);
         }
