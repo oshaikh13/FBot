@@ -23,16 +23,17 @@ module.exports = function (api, args) {
         });
       }
 
-      if (message.body.toLowerCase().indexOf(that.triggerString > -1){
-        var command = message.body.toLowerCase().substring(message.body.indexOf(that.triggerString) 
+      if (message.body.toLowerCase().indexOf(that.triggerString) > -1){
+        var command = message.body.substring(message.body.indexOf(that.triggerString) 
           + that.triggerString.length).trim();
 
-
+        console.log(command);
 
         var mins = millisToMinutes(Date.now() - that.startedOn);
-
+        console.log(mins)
         if (!that.prepared || mins > 120) {  
 
+          console.log('INIT BOT')
 
           that.CBot = new Cleverbot(); 
   
@@ -44,6 +45,7 @@ module.exports = function (api, args) {
           startedOn = Date.now();
 
         } else {
+          console.log('Time until cookie refresh: ' + mins);
           respond();
         }
 
