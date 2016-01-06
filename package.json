@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node SimpleBot/bot.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Omar Shaikh",
+  "license": "MIT",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.4.3",

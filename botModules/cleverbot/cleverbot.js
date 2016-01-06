@@ -1,5 +1,6 @@
 var request = require('request');
 
+var Cleverbot = require('cleverbot-node');
 
 function millisToMinutes(millis) {
   var minutes = Math.floor(millis / 60000);
@@ -13,7 +14,6 @@ module.exports = function (api, args) {
     triggerString: "cleverbot ",
     prepared: false,
     startedOn: Date.now(),
-    Cleverbot: undefined,
     CBot: undefined,
     listen: function(message) {
       var that = this;
@@ -35,10 +35,9 @@ module.exports = function (api, args) {
 
           console.log('INIT BOT')
 
-          that.Cleverbot = require('cleverbot-node');
-          that.CBot = new that.Cleverbot; 
+          that.CBot = new Cleverbot(); 
   
-          that.Cleverbot.prepare(function(){
+          Cleverbot.prepare(function(){
             respond();
           });
 
