@@ -243,7 +243,7 @@ module.exports = function(api, args) {
           if (that.currentQuiz.points[message.senderName]) {
             that.currentQuiz.points[message.senderName]++;
           } else {
-            that.currentQuiz.points[message.senderName] = 0;
+            that.currentQuiz.points[message.senderName] = 1;
           }
 
           api.sendMessage(answers[0] + " is correct, " + message.senderName 
