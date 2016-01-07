@@ -1,0 +1,1 @@
+// Most probably in memory. No need to be persistent with bot status.
