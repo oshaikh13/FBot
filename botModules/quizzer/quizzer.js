@@ -175,6 +175,18 @@ module.exports = function(api, args) {
         return;
       }
 
+      if (qry === "--score" && that.currentQuiz) {
+        
+        var msg = "Scores: \n"
+        for (var key in that.currentQuiz.points) {
+          msg += key + ": " + that.currentQuiz.points[key] + " \n";
+        }
+
+        api.sendMessage(msg, message.threadID);
+        return;
+      }
+
+
       if (qry === '--terminate') {
         that.currentQuiz = null;
         api.sendMessage("Quiz Terminated. Pick another :)", message.threadID);
@@ -222,6 +234,13 @@ module.exports = function(api, args) {
           that.currentQuiz = undefined;
 
         } else if (response) {
+
+          if (that.currentQuiz.points[message.senderName]) {
+            that.currentQuiz.points[message.senderName]++;
+          } else {
+            that.currentQuiz.points[message.senderName] = 0;
+          }
+
           api.sendMessage(answers[0] + " is correct, " + message.senderName 
             + "! Moving on. " + response, message.threadID);
         } else {
