@@ -140,6 +140,15 @@ module.exports = function(api, args) {
         return isAdminBool;
       }
 
+      var printScore = function(pointsObj){
+        var msg = "Scores: \n"
+        for (var key in pointsObj) {
+          msg += key + ": " + pointsObj[key] + " \n";
+        }
+
+        api.sendMessage(msg, message.threadID);
+      }
+
       var that = this;
       var qry = message.body.substring(message.body.indexOf(that.triggerString) 
         + that.triggerString.length + 1);
@@ -176,12 +185,7 @@ module.exports = function(api, args) {
       }
 
       if (qry === "--score" && that.currentQuiz) {
-        
-        var msg = "Scores: \n"
-        for (var key in that.currentQuiz.points) {
-          msg += key + ": " + that.currentQuiz.points[key] + " \n";
-        }
-
+        printScore(that.currentQuiz.points);
         api.sendMessage(msg, message.threadID);
         return;
       }
@@ -230,6 +234,7 @@ module.exports = function(api, args) {
         var response = that.currentQuiz.checkAnswers(answers);
 
         if (response == "All done!") {
+          printScore(that.currentQuiz.points);
           api.sendMessage(response + " Start another quiz.", message.threadID);
           that.currentQuiz = undefined;
 
