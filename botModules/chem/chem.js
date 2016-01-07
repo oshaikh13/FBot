@@ -9,9 +9,14 @@ module.exports = function (api, args) {
           var word = qry.join(" ").trim();
           var coeff = chemUtils.balance(word);
           var msg = "";
-          coeff.forEach(function(num, i){
-            msg += (i + 1) + ". Coeff is " + num + "\n";
-          });
+
+          if (coeff && coeff.forEach) { 
+            coeff.forEach(function(num, i){
+              msg += (i + 1) + ". Coeff is " + num + "\n";
+            });
+          } else {
+            msg = "Something's wrong with the equation"
+          }
           return msg;
       }
 
