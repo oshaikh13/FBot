@@ -693,7 +693,121 @@ var RIGHT_ARROW = "\u2192";  // Right arrow
 // Monkey patching. Returns a shallow copy of this array. Usually used for making defensive copies.
 Array.prototype.clone = Array.prototype.slice;
 
+
+var electronConfig = function (atomicNumber) {
+
+  var limit = atomicNumber;
+
+  var buildOrbitalCache = function() {
+    var elecObject = {s: 2, p: 6, d: 10, f: 14};
+    for (var i = 'f'.charCodeAt(0) + 1; i <= 'f'.charCodeAt(0) + 20; i++) {
+      elecObject[String.fromCharCode(i)] = elecObject[String.fromCharCode(i - 1)] + 4; 
+    }
+
+    elecObject.s = 2;
+    elecObject.p = 6;
+
+    return elecObject;
+  }
+
+  var electronOrbitals = buildOrbitalCache(electronOrbitals);
+
+  var triangleBuild = function () {
+    var tri = []
+    var elec = ['s',  'p', 'd', 'f'];
+    for (var i = 1; i <= limit; i++) {
+      tri.push([]);
+      for (var j = 1; j <= i; j++) {
+
+        var orbital;
+
+        if (elec[j - 1]) {
+          orbital = elec[j - 1];
+        } else {
+          orbital = String.fromCharCode('f'.charCodeAt(0) + (j - 4));
+        }
+
+        tri[i-1][j-1] = i +  "" + orbital;
+      }
+    }
+    return tri;
+  }
+
+  var triangle = triangleBuild();
+
+  var diagonalTraverse = function(arr, fn) {
+
+    for (var i = 0; i < arr.length * 2; i++) {
+
+      var k = i;
+      for (var j = 0; j < arr.length * 2; j++) {
+        if (arr[j] && arr[j][k]) {
+          fn(arr[j][k]);
+        }
+        k--;
+      }
+
+    }
+
+  }
+
+  var total = 0;
+  var config = [];
+
+  diagonalTraverse(triangle, function(element){
+    if (total < atomicNumber) {
+      total += electronOrbitals[element.charAt(element.length - 1)];
+      config.push(element);
+    }
+  });
+
+  var generateShorthand = function (config, total) {
+
+    var sorted = config.slice();
+    var finalElec = sorted.pop();
+    var numElec = total - atomicNumber;
+    var shorthand = "";
+
+    sorted.sort();
+
+    var counts = {};
+
+    for (var i = 0; i < sorted.length; i++) {
+      if (counts[parseInt(sorted[i].charAt(0))]) {
+        counts[parseInt(sorted[i].charAt(0))]++;
+      } else {
+        counts[parseInt(sorted[i].charAt(0))] = 1;
+      }
+    }
+
+    var startChar = 'K'.charCodeAt(0);
+    for (var key in counts) {
+      if (key == counts[key]) {
+        shorthand += String.fromCharCode(startChar);
+        startChar++;
+      }
+    }
+
+    sorted = sorted.slice(sorted.indexOf(shorthand.length + "s") + 1);
+
+    if (numElec) {
+      finalElec = finalElec + "^" + (electronOrbitals[finalElec.charAt(finalElec.length - 1)] - numElec);
+    } 
+
+    sorted.push(finalElec);
+    sorted.sort();
+    shorthand += " " + sorted.join(" ");
+    return shorthand;
+  }
+
+  var shorthand = generateShorthand(config, total);
+
+
+  return shorthand;
+}
+
 module.exports = {
-  balance: balance
+  balance: balance,
+  electronConfig: electronConfig
 }
 

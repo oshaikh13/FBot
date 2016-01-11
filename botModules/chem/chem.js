@@ -27,18 +27,25 @@ module.exports = function (api, args) {
           + this.triggerString.length).trim();
 
         var qry = word.split(" ");
-        var all = qry[qry.length - 1] === "--balance";
+        var args = qry[qry.length - 1];
         var limit = 1;
 
-        if (all) {
+        if (args === "--balance") {
           qry.pop();
-
-
           api.sendMessage(balancer(qry), message.threadID);
+        } else if (args === "--econfig") {
+          qry.pop();
+          var word = qry.join(" ").trim();
+
+          try {
+            var anum = parseInt(word);
+            api.sendMessage(word + ": " + chemUtils.electronConfig(anum), message.threadID);
+          } catch (e) {
+            api.sendMessage("Error. This is bad.", message.threadID);
+          }
+
         } else {
-
-          api.sendMessage(balancer(qry), message.threadID);
-
+          api.sendMessage("Write a command. --balance or --econfig", message.threadID)
         }
 
       }
