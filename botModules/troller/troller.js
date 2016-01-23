@@ -103,7 +103,7 @@ module.exports = function (api, args) {
 
         if (message.body.toLowerCase().indexOf("bae 4 lyfe") > -1) {
           var msg = {
-            attachment: fs.createReadStream(__dirname + '/resources/bae.jpg');
+            attachment: fs.createReadStream(__dirname + '/resources/bae.jpg')
           }
           api.sendMessage(msg, message.threadID);
         }
