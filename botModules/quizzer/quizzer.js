@@ -208,7 +208,7 @@ module.exports = function(api, args) {
 
         if (!that.currentQuiz) {
 
-          var response = "Quiz not found! Write 'quizzer --listall' to see all quizzes \n";
+          var response = "Quiz not found! Write 'quizzer --all' to see all quizzes \n";
           api.sendMessage(response, message.threadID);
 
         } else { 
