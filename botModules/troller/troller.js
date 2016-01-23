@@ -101,6 +101,13 @@ module.exports = function (api, args) {
           api.sendMessage("arsenal sux m8", message.threadID);
         }
 
+        if (message.body.toLowerCase().indexOf("bae 4 lyfe") > -1) {
+          var msg = {
+            attachment: fs.createReadStream(__dirname + '/resources/bae.jpg');
+          }
+          api.sendMessage(msg, message.threadID);
+        }
+
         if (message.body.toLowerCase().indexOf(process.env.BOT_NAME) > -1) {
           api.sendMessage("im here bae", message.threadID);
         }
