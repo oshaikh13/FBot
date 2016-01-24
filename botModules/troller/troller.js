@@ -108,6 +108,13 @@ module.exports = function (api, args) {
           api.sendMessage(msg, message.threadID);
         }
 
+        if (message.body.toLowerCase().indexOf("hearthstone") > -1) {
+          var msg = {
+            attachment: fs.createReadStream(__dirname + '/resources/hearthstone.png')
+          }
+          api.sendMessage(msg, message.threadID);
+        }
+
         if (message.body.toLowerCase().indexOf(process.env.BOT_NAME) > -1) {
           api.sendMessage("im here bae", message.threadID);
         }
