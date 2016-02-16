@@ -1,0 +1,14 @@
+{
+  "name": "terminalclient",
+  "version": "1.0.0",
+  "description": "",
+  "main": "terminal.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Omar Shaikh <oshaikh13@gmail.com> (http://www.awesomeomar.com)",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io-client": "^1.4.5"
+  }
+}

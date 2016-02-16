@@ -1,10 +1,9 @@
-// Satsify heroku port binding.
-var express = require('express');
-var app = express();
+var app = require('express')();
+var server = require('http').Server(app);
+var io = require('socket.io')(server);
 
-app.listen(process.env.PORT || 8000);
+server.listen(process.env.PORT || 8000);
 
-// Allow pinging to wake the server.
 app.get('/', function (req, res) {
   res.send("I'm awake, dammit.");
 });
@@ -34,6 +33,10 @@ login({email: process.env.FB_EMAIL, password: process.env.FB_PASSWORD}, function
       ]
     );
  
+    io.on("connection", function(newSocket) {
+      loader.addModule({name: 'terminal', args: {socket: newSocket, admins: ["omar"]}});
+    });
+
     api.listen(function callback(err, message) {
 
       loader.newMessage(err, message);

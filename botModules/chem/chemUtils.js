@@ -20,7 +20,15 @@ function balance(formulaStr) {
   try {
     eqn = parse(formulaStr);
   } catch (e) {
-    return "Error";
+    var balanced;
+    if (typeof e == "string") {  // Simple error message string
+      balanced = ("Syntax error: " + e);
+      
+    } else if ("start" in e) {  // Error message object with start and possibly end character indices
+      balanced = ("Syntax error: " + e.message);
+    }
+
+    return balanced || "Error";
   }
   
   try {

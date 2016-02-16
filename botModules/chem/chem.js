@@ -14,8 +14,10 @@ module.exports = function (api, args) {
             coeff.forEach(function(num, i){
               msg += (i + 1) + ". Coeff is " + num + "\n";
             });
+          } else if (typeof coeff === "string"){
+            msg = coeff;
           } else {
-            msg = "Something's wrong with the equation"
+            msg = "Something's wrong with the equation";
           }
           return msg;
       }

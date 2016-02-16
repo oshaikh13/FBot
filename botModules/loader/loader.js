@@ -12,10 +12,22 @@ module.exports = function (api) {
 
     loadModules: function(threadID) {
       this.moduleList.forEach(function(module){
-        this.rooms[threadID].modules[module.name] = 
-          require('../' + module.name + '/' + module.name + '.js')(this.api, module.args);
+        this.loadModule(threadID, module);
       }.bind(this));
     },
+
+    loadModule: function(threadID, module) {
+      this.rooms[threadID].modules[module.name] = 
+        require('../' + module.name + '/' + module.name + '.js')(this.api, module.args);
+    },
+
+    addModule: function(module) {
+      this.moduleList.push(module);
+      for (var key in this.rooms) {
+        this.loadModule(key, module);
+      }
+    },
+
 
     newMessage: function(err, message) {
 
@@ -36,5 +48,5 @@ module.exports = function (api) {
     }
 
   }
-
 }
+

@@ -62,6 +62,14 @@ module.exports = function (api, args) {
           api.sendMessage("Jawad hearthstoner af...", message.threadID);
         }
 
+
+        if (message.body.toLowerCase().indexOf("shan") > -1) {
+          var msg = {
+            attachment: fs.createReadStream(__dirname + '/resources/shan.png')
+          }
+          api.sendMessage(msg, message.threadID);
+        }
+
         if (message.body.toLowerCase().indexOf("nofel") > -1) {
           api.sendMessage("All hail the nofy bear, the nofy pear, the nofy hair, the nofy insurance care",
            message.threadID);
