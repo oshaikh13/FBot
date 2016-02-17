@@ -29,7 +29,8 @@ login({email: process.env.FB_EMAIL, password: process.env.FB_PASSWORD}, function
         {name: 'troller', args: {admins: ["omar"]}},
         {name: 'translate'},
         {name: 'cleverbot'},
-        {name: 'chem'}
+        {name: 'chem'},
+        {name: 'xkcd'}
       ]
     );
  
