@@ -70,6 +70,14 @@ module.exports = function (api, args) {
           api.sendMessage(msg, message.threadID);
         }
 
+        if (message.body.toLowerCase().indexOf("salman") > -1) {
+          var msg = {
+            attachment: fs.createReadStream(__dirname + '/resources/snake.gif'),
+            body: 'Salman Snake'
+          }
+          api.sendMessage(msg, message.threadID);
+        }
+
         if (message.body.toLowerCase().indexOf("nofel") > -1) {
           api.sendMessage("All hail the nofy bear, the nofy pear, the nofy hair, the nofy insurance care",
            message.threadID);
