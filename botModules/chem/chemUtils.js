@@ -1,3 +1,5 @@
+var molWeights = require('./molecularWeights.js');
+
 /* 
  * Chemical equation balancer
  * 
@@ -694,6 +696,10 @@ var RIGHT_ARROW = "\u2192";  // Right arrow
 // Monkey patching. Returns a shallow copy of this array. Usually used for making defensive copies.
 Array.prototype.clone = Array.prototype.slice;
 
+///////////////////////////////////////////////////////////////////////////////////////////////////
+// End of formula balancer.
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 var electronConfig = function (atomicNumber) {
 
@@ -807,8 +813,43 @@ var electronConfig = function (atomicNumber) {
   return shorthand;
 }
 
+var molMass = function(equation) {
+  try {
+
+    var elements = equation.split(/(?=[A-Z])/);
+    var total = 0;
+
+    for (var i = 0; i < elements.length; i++) {
+      var obj = {};
+      var elementSymbol = elements[i].split(/\d+/);
+      var elementCount = elements[i].match(/\d+/);
+      if (!elementCount) {
+        obj.elementCount = 1;
+      } else {
+        obj.elementCount = elementCount[0];
+      }
+
+      if (!elementSymbol) {
+        throw new Error("SHIT HIT THE FAN");
+      } else {
+        obj.elementSymbol = elementSymbol[0];
+      }
+
+      console.log(obj);
+
+      total += molWeights[obj.elementSymbol] * parseInt(obj.elementCount);
+    }
+
+    return equation + ": " + total + "g";
+  } catch (e) {
+    console.log(e);
+    return "Something went wrong. Talk to the person who made me.";
+  }
+}
+
 module.exports = {
   balance: balance,
-  electronConfig: electronConfig
+  electronConfig: electronConfig,
+  molMass: molMass
 }
 

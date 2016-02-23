@@ -1,5 +1,6 @@
 var request = require('request');
-var chemUtils = require('./chemUtils.js')
+var chemUtils = require('./chemUtils.js');
+
 module.exports = function (api, args) {
   return {
     api: api,
@@ -46,6 +47,11 @@ module.exports = function (api, args) {
             api.sendMessage("Error. This is bad.", message.threadID);
           }
 
+        } else if (args === "--weight") {
+          qry.pop();
+          var word = qry.join(" ").trim();
+          api.sendMessage(chemUtils.molMass(word), message.threadID);
+        
         } else {
           api.sendMessage("Write a command. --balance or --econfig", message.threadID)
         }

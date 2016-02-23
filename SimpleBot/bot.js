@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
 
 // Enable this on dev. 
 // Start nodemon server from simplebot folder to find env.
-// require('dotenv').config({path: '../.env'});
+require('dotenv').config({path: '../.env'});
 
 var login = require("facebook-chat-api");
 
