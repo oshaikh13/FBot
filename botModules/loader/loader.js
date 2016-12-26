@@ -1,3 +1,5 @@
+const requireUncached = require('require-uncached');
+
 module.exports = function (api) {
 
   return {
@@ -17,8 +19,10 @@ module.exports = function (api) {
     },
 
     loadModule: function(threadID, module) {
+      // Use uncached require to avoid that annoying bug
+      // where certain modules would 'bleed' to other chats
       this.rooms[threadID].modules[module.name] = 
-        require('../' + module.name + '/' + module.name + '.js')(this.api, module.args);
+        requireUncached('../' + module.name + '/' + module.name + '.js')(this.api, module.args);
     },
 
     addModule: function(module) {
