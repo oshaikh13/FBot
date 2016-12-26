@@ -22,7 +22,7 @@ module.exports = function (api) {
       // Use uncached require to avoid that annoying bug
       // where certain modules would 'bleed' to other chats
       this.rooms[threadID].modules[module.name] = 
-        requireUncached('../' + module.name + '/' + module.name + '.js')(this.api, module.args);
+        require('../' + module.name + '/' + module.name + '.js')(this.api, module.args);
     },
 
     addModule: function(module) {
