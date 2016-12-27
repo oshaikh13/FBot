@@ -22,7 +22,7 @@ module.exports = function (api) {
       // Use uncached require to avoid that annoying bug
       // where certain modules would 'bleed' to other chats
       this.rooms[threadID].modules[module.name] = 
-        require('../' + module.name + '/' + module.name + '.js')(this.api, module.args);
+        requireUncached('../' + module.name + '/' + module.name + '.js')(this.api, module.args);
     },
 
     addModule: function(module) {
@@ -46,9 +46,33 @@ module.exports = function (api) {
     },
 
     passToModules: function(message) {
-      for (var key in this.rooms[message.threadID].modules) {
-        this.rooms[message.threadID].modules[key].listen(message);
-      }
+
+      // TODO: conditions should be handled by modules
+      if (!(message && message.type && message.body && message.type == "message")) return;
+
+      this.api.getUserInfo(message.senderID, function(err, userInfo) {
+
+        if (err) {
+          message.senderName = "NAMELESS :P";
+          // console.log(err);
+        } else {
+          // console.log(JSON.stringify(userInfo, null, 2));
+          // console.log(userInfo[message.senderID].name);
+          message.senderName = userInfo[message.senderID].name;
+        }
+
+        for (var key in this.rooms[message.threadID].modules) {
+          this.rooms[message.threadID].modules[key].listen(message);
+        }
+
+      }.bind(this));
+
+      // console.log(JSON.stringify(message, null, 2));
+
+
+
+
+
     }
 
   }

@@ -4,7 +4,7 @@
   "description": "A messenger chatbot. For Facebook",
   "main": "SimplebBot/bot.js",
   "scripts": {
-    "start": "node SimpleBot/bot.js"
+    "start": "cd SimpleBot && node bot.js"
   },
   "author": "Omar Shaikh",
   "license": "MIT",

@@ -3,11 +3,6 @@ module.exports = function (api, args) {
 
   var socket = args.socket;
 
-  args.socket.on('completed', function(data){
-    console.log(data);
-    api.sendMessage(data.result, data.id);
-  })
-
   return {
     api: api,
     triggerString: "terminal",

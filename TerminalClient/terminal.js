@@ -1,18 +1,31 @@
-var exec = require('child_process').exec;
 
+var spawn = require('child_process').spawn;
 var socket = require('socket.io-client')('http://localhost:8000');
 
-var options = {
-  cwd: '/'
-}
+var latest = null;
 
-socket.on("disconnect", function(){
-  console.log("SERVER DISABLED...");
-});
+
+
+var sh = spawn('bash');
 
 socket.on('command', function(data){
-  console.log("received command: " + data.command);
-  exec(data.command, options, function(err, stdout, strerr){
-    socket.emit('completed', {result: stdout, id: data.id});
-  })
+  console.log(data);
+  sh.stdin.write(data.command + "\n");
+  latest = data.id;
+  // socket.emit('completed', data);
 });
+
+sh.stdout.on('data', function(data) {
+  console.log("ACTUAL DATA \n" + data)
+  socket.emit('completed', {result: data, id: latest});
+});
+
+sh.stderr.on('data', function(data) {
+  console.log("ACTUAL ERROR")
+  socket.emit('completed', {result: data, id: latest});
+});
+
+sh.on('exit', function (code) {
+  socket.emit(completed, 'Exited console');
+});
+

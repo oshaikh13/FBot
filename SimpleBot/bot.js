@@ -40,7 +40,18 @@ login({
     );
  
     io.on("connection", function(newSocket) {
+
       loader.addModule({name: 'terminal', args: {socket: newSocket, admins: ["omar"]}});
+
+      newSocket.on('completed', function(data){
+
+        function ab2str(buf) {
+          return String.fromCharCode.apply(null, new Uint16Array(buf));
+        }
+    
+        api.sendMessage(ab2str(data.result), data.id);
+      });
+
     });
 
     api.listen(function callback(err, message) {
