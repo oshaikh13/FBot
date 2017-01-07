@@ -56,4 +56,4 @@ Important Module Dependencies
 
 ## License
 
-Copyright (c) 2015 and beyond Omar Shaikh. The content of this project itself is licensed under the MIT License
+The content of this project itself is licensed under the MIT License
