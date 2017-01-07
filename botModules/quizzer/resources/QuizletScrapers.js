@@ -1,5 +1,17 @@
-// 
-// Paste the following into a google chrome console. 
+
+
+// Ion Quizlet Scraper (Copy this bit into chrome)
+
+var x = $('.word');
+var ion = x.next();
+var myJSON = []
+for (var i = 0; i < x.length; i++){
+  myJSON.push({question: x[i].textContent.trim(), answer: ion[i].textContent.trim()})
+}
+
+JSON.stringify(myJSON);
+
+// APUSH quizlet scraper 
 // 
 
 String.prototype.replaceAll = function(search, replacement) {
