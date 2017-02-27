@@ -1,0 +1,262 @@
+{
+  "title": "People/Events in Period 8",
+  "description": "Name who or what this event or person is.",
+  "questions": [
+    {
+      "question": "A law that provided a range of benifits to servicemen returning from WW2, including cash payments of tuition and living expenses to attend high school, college or vocational/technical school, low-cost mortgages, low-interest loans to start a business, as well as one year of unemployment compensation.",
+      "answer": "G.I Bill"
+    },
+    {
+      "question": "The marked increase in the birth rate following the Second World War.",
+      "answer": "Baby Boom"
+    },
+    {
+      "question": "Name of the popular mass production of suburban houses following the baby boom.",
+      "answer": "Levitttown"
+    },
+    {
+      "question": "Comprises the southern tier of the United States, including the states of Alabama, Arizona, Florida, Georgia, Louisiana, Mississippi, New Mexico, South Carolina",
+      "answer": "Sun Belt"
+    },
+    {
+      "question": "Amendment that limited the number of terms a president could serve to 2. The answer should be just a number",
+      "answer": "22"
+    },
+    {
+      "question": "A United States federal law that restricted the activities and power of labor unions, and passed over Truman's Veto.",
+      "answer": "Taft-Hartley Act"
+    },
+    {
+      "question": "A state of political and military tension after World War II between powers in the Eastern Bloc (the Soviet Union and its satellite states) and powers in the Western Bloc (the United States, its NATO allies and others)",
+      "answer": "Cold War"
+    },
+    {
+      "question": "This organization was established on 24 October 1945 after World War II in order to prevent another such conflict.",
+      "answer": "United Nations"
+    },
+    {
+      "question": "The name for the **symbolic** boundary dividing Europe into two separate areas from the end of World War II in 1945 until the end of the Cold War in 1991.",
+      "answer": "Iron Curtain"
+    },
+    {
+      "question": "A policy that used numerous strategies to prevent the spread of communism abroad",
+      "answer": "Containment"
+    },
+    {
+      "question": "The transportation of food, water, and medicine to the citizens of Berlin, in response to the Soviet blockade of land routes.",
+      "answer": "Berlin Airlift"
+    },
+    {
+      "question": "The principle that the US should give support to countries or peoples threatened by Soviet forces or Communist insurrection. The answer should look like \"____ Doctrine\"",
+      "answer": "Truman Doctrine"
+    },
+    {
+      "question": "An American initiative to aid Western Europe, in which the United States gave over $12B ($120B in today's money) in economic support to help rebuild Western European economies after the end of World War II.",
+      "answer": "Marshall Plan"
+    },
+    {
+      "question": "An intergovernmental military alliance based on the North Atlantic Treaty which was signed on 4 April 1949. Created in response to the Warsaw Pact. The answer should not be the abbreviation",
+      "answer": "North Atlantic Treaty Organization"
+    },
+    {
+      "question": "Last name of couple who were executed for conspiracy to commit espionage for the Soviet Union (by disclosing information about the A-bomb)",
+      "answer": "Rosenberg"
+    },
+    {
+      "question": "Person who was noted for making claims that there were large numbers of Communists and Soviet spies and sympathizers inside the United States federal government and elsewhere. Ultimately, the controversy he generated led him to be censured by the United States Senate.",
+      "answer": "Joseph McCarthy"
+    },
+    {
+      "question": "President known for launching the Marshall Plan to rebuild the economy of Western Europe, for leading the Cold War against Soviet and Chinese communism",
+      "answer": "Harry Truman"
+    },
+    {
+      "question": "President who had the nickname \"Ike\" and warned against the industrial military complex",
+      "answer": "Dwight Eisenhower"
+    },
+    {
+      "question": "President known infamously for the Watergate scandal",
+      "answer": "Richard Nixon"
+    },
+    {
+      "question": "The art or practice of pursuing a dangerous policy to the limits of safety before stopping, especially in politics.",
+      "answer": "Brinkmanship"
+    },
+    {
+      "question": "A civilian foreign intelligence service of the United States federal government, tasked with gathering, processing and analyzing national security information from around the world (read: spies) The answer shouldn't be the abbreviation",
+      "answer": "Central Intelligence Agency"
+    },
+    {
+      "question": "A theory that claimed that following the collapse of one country into communism, others would rapidly follow. The answer should be like this. \"____ Theory\"",
+      "answer": "Domino Theory"
+    },
+    {
+      "question": "This act exapanded the interstate highway to 41,000 miles. It allowed motorists to traverse the country easily, but also helped speed up troop movements and evacuation routes. Keep the answer to the last two words of the act.",
+      "answer": "Highway Act"
+    },
+    {
+      "question": "The Vietnamese Communist revolutionary leader who was prime minister and president of the Democratic Republic of Vietnam",
+      "answer": "Ho Chi Minh"
+    },
+    {
+      "question": "A conference among several nations that took place in Geneva, Switzerland, in order to settle outstanding issues resulting from the Korean War and discuss the possibility of restoring peace in Indochina. The answer should like like \"____ Conference\"",
+      "answer": "Geneva Conference"
+    },
+    {
+      "question": "The canal that Egypt attepted to nationalize-\"take over.\" Pretty muched spurred France, Britian, and Israel to invade. Fearing escalation, Eisenhower forced them to withdraw. The answer should look like \"___ Canal\"",
+      "answer": "Suez Canal"
+    },
+    {
+      "question": "This organization was created to oppose the spread of communism in Southeast Asia after France's withdrawal from Indochina. It was mean to justify American presence in Vietnam (although some members of this organization didn't exactly support the U.S) The answer should not be the abbreviation",
+      "answer": "Southeast Asia Treaty Organization"
+    },
+    {
+      "question": "A permanent, intergovernmental organization, consisting of Iran, Iraq, Kuwait, Saudi Arabia and Venezuela. It's objective is to co-ordinate and unify petroleum policies among Member Countries, in order to secure fair and stable prices for petroleum producers. They stopped exporting oil to US after the Yom Kippur War, which messed the U.S up nicely. No abbreviations.",
+      "answer": "Organization of Petroleum Exporting Countries"
+    },
+    {
+      "question": "A collective defence treaty among the Soviet Union and seven other Soviet satellite states in Central and Eastern Europe during the Cold War. Answer should look like \"_____ Pact\"",
+      "answer": "Warsaw Pact"
+    },
+    {
+      "question": "The name of the satellite the Soviets launched during the space race. Made americans question the efficacy of their education system.",
+      "answer": "Sputnik"
+    },
+    {
+      "question": "U.S government organization formed in response to the alarming technological pace of the Soviet space program. No abbreviations.",
+      "answer": "National Aeronautics and Space Administration"
+    },
+    {
+      "question": "This is the term for an informal alliance between a nation's military and the arms industry which supplies it, seen together as a vested interest which influences public policy. Eisenhower warned against this in a speech.",
+      "answer": "Military-industrial complex"
+    },
+    {
+      "question": "A Cuban revolutionary and politician who governed the Republic of Cuba as Prime Minister from 1959 to 1976. CIA tried to kill him MULTIPLE times XD but they failed hard. He actually died recently, and of natural causes.",
+      "answer": "Fidel Castro"
+    },
+    {
+      "question": "Famous black player that broke the color boundary in professional baseball (Joined the MLB)",
+      "answer": "Jackie Robinson"
+    },
+    {
+      "question": "A civil rights organization in the United States, formed in 1909 as a bi-racial organization to advance justice for African Americans by W. E. B. Dubious. It dissaproved of more radical derivatives like the black panthers. NO ABBRV",
+      "answer": "National Association for the Advancement of Colored People"
+    },
+    {
+      "question": "This Associate Justice of the Supreme Court utilized the judiciary to champion equality for African Americans. In 1954, he won the Brown v. Board of Education case",
+      "answer": "Thurgood Marshall"
+    },
+    {
+      "question": "A landmark United States Supreme Court case in which the Court declared state laws establishing separate public schools for black and white students to be unconstitutional",
+      "answer": "Brown v. Board of Education"
+    },
+    {
+      "question": "An American cheif justice known for his liberal decisions, considering Brown V Board and Miranda V Arizona. His court was named after him.",
+      "answer": "Earl Warren"
+    },
+    {
+      "question": "A document written in February and March 1956, in the United States Congress, by the souther states, in opposition to racial integration of public places.",
+      "answer": "Southern Manifesto"
+    },
+    {
+      "question": "Name of city in which the students were initially prevented from entering the racially segregated school. They then attended after the military intervention of President Dwight D. Eisenhower.",
+      "answer": "Little Rock"
+    },
+    {
+      "question": "The name of the student convention that initally focused on nonviolent fundraising for the south for blacks, then transitioned into a group that prioritized black power. Put the groups initial name, and not the abbreviation.",
+      "answer": "Student Nonviolent Coordinating Committee"
+    },
+    {
+      "question": "An operation that utilized special tactics to deal with illegal border crossings into the United States by Mexican nationals and gave rise to arrests and deportations by the U.S. Border Patrol that were civil rights violations, which resulted in several hundred United States citizens being illegally deported without being given a chance to prove their citizenship",
+      "answer": "Operation Wetback"
+    },
+    {
+      "question": "This act mandated a major reorganization of the foreign policy and military establishments of the U.S. Government following WWII. The act created many of the institutions that Presidents found useful when formulating and implementing foreign policy,",
+      "answer": "National Security Act"
+    },
+    {
+      "question": "This parallel was established as the boundary between Soviet and American occupation zones during the Korean War. Just the number.",
+      "answer": "38"
+    },
+    {
+      "question": "Govt. organization created in 1938 to investigate alleged disloyalty and subversive activities on the part of private citizens, public employees, and those organizations suspected of having Communist ties. Not the abbreviation.",
+      "answer": "House Un-American Activities Committee"
+    },
+    {
+      "question": "An American government official who was accused of being a Soviet spy in 1948 and convicted of perjury in connection with this charge in 1950.",
+      "answer": "Alger Hiss"
+    },
+    {
+      "question": "A 13-day confrontation between the United States and the Soviet Union concerning American ballistic missile deployment in Italy and Turkey with consequent Soviet ballistic missile deployment in Cuba.",
+      "answer": "Cuban Missle Crisis"
+    },
+    {
+      "question": "A set of domestic programs in the United States launched by Democratic President Lyndon B. Johnson. The main goal was the elimination of poverty and racial injustice.",
+      "answer": "Great Society"
+    },
+    {
+      "question": "A major political scandal that occurred in the United States in the 1970s, following a break-in at the Democratic National Committee (DNC) headquarters at the Watergate office complex in Washington, D.C. and President Richard Nixon's administration's attempted cover-up of its involvement. The answer should look like \"___ Scandal\"",
+      "answer": "Watergate Scandal"
+    },
+    {
+      "question": "This national social insurance program provides health insurance for Americans aged 65 and older who have worked and paid into the system through the payroll tax.",
+      "answer": "Medicare"
+    },
+    {
+      "question": "The act is an extensive statute that funds primary and secondary education. It also emphasizes equal access to education and establishes high standards and accountability. In addition, the bill aims to shorten the achievement gaps between students by providing each child with fair and equal opportunities to achieve an exceptional education.",
+      "answer": "Elementary and Secondary Education Act"
+    },
+    {
+      "question": "Kennedy established this force that would be made up of civilians who would volunteer their time and skills to travel to underdeveloped nations to assist them in any way they could.",
+      "answer": "Peace Corps"
+    },
+    {
+      "question": "Persistent high inflation combined with high unemployment and stagnant demand in a country's economy. What happened in the U.S during the 1970s",
+      "answer": "Stagflation"
+    },
+    {
+      "question": "A United States federal law designed to control air pollution on a national level",
+      "answer": "Clean Air Act"
+    },
+    {
+      "question": "An American labor leader and civil rights activist who co-founded the National Farm Workers Association and attepted to better the working conditions for farmers",
+      "answer": "Cesar Chavez"
+    },
+    {
+      "question": "This act gave Indian tribes the authority for how they administered the funds, which gave them greater control over their welfare.",
+      "answer": "Indian Self-Determination Act"
+    },
+    {
+      "question": "Cuban exiles launched what became a botched invasion to overthrow the vampire Fidel Castro, and remove his communist regime",
+      "answer": "Bay of Pigs"
+    },
+    {
+      "question": "These accords, orchestrated by Jimmy Carter, called for a formal peace treaty to be signed between Israel and Egypt, within three months.",
+      "answer": "Camp David Accords"
+    },
+    {
+      "question": "This wall was meant to keep Western “fascists” from entering East Germany and undermining the socialist state, but it primarily served the objective of stemming mass defections from East to West.",
+      "answer": "Berlin Wall"
+    },
+    {
+      "question": "A United States federal law that established the basic structure for regulating pollutant discharges into the waters of the United States",
+      "answer": "Clean Water Act"
+    },
+    {
+      "question": "North Vietnamese and Viet Cong forces launched this offensive on the new Vietnamese year, and coordinated series of fierce attacks on more than 100 cities and towns in South Vietnam. The size and scope of the communist attacks had caught the American and South Vietnamese allies completely by surprise.",
+      "answer": "Tet Offensive"
+    },
+    {
+      "question": "This resolution gave Lyndon Johnson broad congressional approval for expansion of the Vietnam War after a naval conflict between Vietnam and the U.S. The answer should look like \"________ Resolution\"",
+      "answer": "Gulf of Tonkin Resolution"
+    },
+    {
+      "question": "Act that abolished an earlier quota system based on national origin and established a new immigration policy based on reuniting immigrant families and attracting skilled labor to the United States. The answer should look like this \"___-___ act\"",
+      "answer": "Hart-Cellar Act"
+    },
+    {
+      "question": "A federal law intended to check the president's power to commit the United States to an armed conflict without the consent of the U.S. Congress. The answer should look like \"______ act\"",
+      "answer": "War Powers Act"
+    }
+  ]
+}
