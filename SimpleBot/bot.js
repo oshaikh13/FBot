@@ -20,7 +20,7 @@ login({
         forceLogin: true
       }, 
   function callback (err, api) {
-    if(err) return console.error(err);
+    if (err) return console.error(err);
 
     var loader = require("../botModules/loader/loader.js")(api);
     // Must be manually loaded!
@@ -55,7 +55,7 @@ login({
     });
 
     api.listen(function callback(err, message) {
-
+      
       loader.newMessage(err, message);
 
     });
