@@ -2,9 +2,6 @@ var fs = require('fs');
 var levenshtein = require('damerau-levenshtein');
 var rp = require('request-promise');
 
-var async = require('asyncawait/async');
-var await = require('asyncawait/await');
-
 var shuffle = function(array) {
   var currentIndex = array.length, temporaryValue, randomIndex;
 
@@ -42,50 +39,11 @@ var Quiz = function (name) {
   // body...
   var quizzer = {};
 
-  // TODO: Complete this
-  // quizzer.buildCollection = function(len, cb) {
-  //   return new Promise((resolve, reject) => {
-
-  //     var collection = {};
-  //     collection.questions = [];
-  //     collection.quizLength = len;
-
-  //     var loaded = 0;
-
-  //     for (var i = 0; i < len; i++) {
-  //       request('http://jservice.io/api/random', function(err, res, body){
-  //         var result = JSON.parse(body)[0];
-
-  //         collection.questions.push({
-  //           answer: result.answer.replace(/<[^>]*>/g, '').replace(/\\'s/ig, "'s"),
-  //           category: result.category.title,
-  //           question: result.question
-  //         })
-
-  //         console.log(collection);
-
-  //         loaded++;
-  //         if (loaded == len) {
-  //           resolve(collection);
-  //         } 
-  //       });
-  //     }
-  //   });
-
-  // }
-
-  if (name == "random_api") {
-    // quizzer.data = await( quizzer.buildCollection());
+  try {
+    quizzer.data = require("./resources/quizzes/" + name + '.json');
+  } catch (e) {
     return null;
-  } else {
-
-    try {
-      quizzer.data = require("./resources/quizzes/" + name + '.json');
-    } catch (e) {
-      return null;
-    } 
-
-  }
+  } 
 
   quizzer.complete = false;
   quizzer.current = 0;
